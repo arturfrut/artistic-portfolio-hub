@@ -9,5 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: '/artistic-porfolio-hub/'
+  base: '/artistic-portfolio-hub/'
 })
