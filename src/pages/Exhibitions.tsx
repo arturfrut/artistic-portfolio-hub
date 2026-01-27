@@ -53,33 +53,6 @@ const Exhibitions = () => {
             </div>
           </div>
 
-          {/* Group Exhibitions */}
-          <div>
-            <h2 className="font-display text-2xl mb-8 text-secondary opacity-0 animate-fade-in-up">
-              Group Exhibitions
-            </h2>
-            <div className="space-y-6">
-              {groupExhibitions.map((exhibition, index) => (
-                <div
-                  key={exhibition.id}
-                  className="border-b border-border pb-6 opacity-0 animate-fade-in-up"
-                  style={{ animationDelay: `${0.3 + index * 0.1}s` }}
-                >
-                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-2">
-                    <div>
-                      <h3 className="font-display text-xl">{exhibition.title}</h3>
-                      <p className="text-muted-foreground text-sm">
-                        {exhibition.venue}, {exhibition.location}
-                      </p>
-                    </div>
-                    <p className="text-muted-foreground text-sm">
-                      {exhibition.date}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
     </Layout>
