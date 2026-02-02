@@ -1,0 +1,29 @@
+{
+  "prensa": [
+    {
+      "id": "1",
+      "title": "El nuevo lenguaje visual de Ignacio Crevecoeur",
+      "publication": "Revista Ñ - Clarín",
+      "date": "Marzo 2024",
+      "excerpt": "Una mirada profunda al trabajo del artista que está redefiniendo el arte contemporáneo argentino.",
+      "link": "#",
+      "imageUrl": "images/artwork-5.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Artistas emergentes a seguir en 2024",
+      "publication": "Art Forum",
+      "date": "Enero 2024",
+      "excerpt": "Selección de los artistas más prometedores del panorama latinoamericano.",
+      "link": "#"
+    },
+    {
+      "id": "3",
+      "title": "La abstracción como resistencia",
+      "publication": "La Nación",
+      "date": "Noviembre 2023",
+      "excerpt": "Entrevista exclusiva sobre el proceso creativo y la búsqueda de nuevas formas de expresión.",
+      "link": "#"
+    }
+  ]
+}

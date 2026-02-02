@@ -1,0 +1,39 @@
+{
+  "exposiciones": [
+    {
+      "id": "1",
+      "title": "Fragmentos del Alma",
+      "venue": "Galería Arte Contemporáneo",
+      "location": "Buenos Aires, Argentina",
+      "date": "2024",
+      "type": "solo",
+      "imageUrl": "images/artwork-1.jpg",
+      "description": "Una exploración de la identidad fragmentada a través del color y la forma."
+    },
+    {
+      "id": "2",
+      "title": "Visiones Latinoamericanas",
+      "venue": "Museo de Arte Moderno",
+      "location": "Ciudad de México, México",
+      "date": "2023",
+      "type": "group"
+    },
+    {
+      "id": "3",
+      "title": "El Silencio Habla",
+      "venue": "Centro Cultural Recoleta",
+      "location": "Buenos Aires, Argentina",
+      "date": "2023",
+      "type": "solo",
+      "imageUrl": "images/artwork-3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Arte Emergente del Sur",
+      "venue": "MALBA",
+      "location": "Buenos Aires, Argentina",
+      "date": "2022",
+      "type": "group"
+    }
+  ]
+}

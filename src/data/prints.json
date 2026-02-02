@@ -1,0 +1,31 @@
+{
+  "prints": [
+    {
+      "id": "1",
+      "title": "Fragmentos I",
+      "imageUrl": "images/artwork-1.jpg",
+      "edition": "Edición limitada de 50",
+      "size": "60 x 40 cm",
+      "price": "$350",
+      "available": true
+    },
+    {
+      "id": "2",
+      "title": "La Danza",
+      "imageUrl": "images/artwork-2.jpg",
+      "edition": "Edición limitada de 30",
+      "size": "80 x 60 cm",
+      "price": "$500",
+      "available": true
+    },
+    {
+      "id": "3",
+      "title": "Ecos",
+      "imageUrl": "images/artwork-3.jpg",
+      "edition": "Edición limitada de 50",
+      "size": "50 x 40 cm",
+      "price": "$280",
+      "available": false
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+# Backend - Por ahora local, después configuramos Git
+backend:
+  name: git-gateway
+  branch: main
+
+# Dónde se guardan las imágenes
+media_folder: "public/images"
+public_folder: "images"
+
+# Idioma de la interfaz
+locale: "es"
+
+# Colecciones (las 4 secciones que tenés)
+collections:
+  # OBRAS
+  - name: "obras"
+    label: "Obras"
+    files:
+      - name: "obras"
+        label: "Obras"
+        file: "src/data/obras.json"
+        fields:
+          - label: "Obras"
+            name: "obras"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Año", name: "year", widget: "string" }
+              - { label: "Técnica", name: "medium", widget: "string" }
+              - { label: "Dimensiones", name: "dimensions", widget: "string" }
+              - { label: "Imagen", name: "imageUrl", widget: "image" }
+              - {
+                  label: "Categoría",
+                  name: "category",
+                  widget: "select",
+                  options: ["paintings", "works-on-paper"],
+                }
+
+  # EXPOSICIONES
+  - name: "exposiciones"
+    label: "Exposiciones"
+    files:
+      - name: "exposiciones"
+        label: "Exposiciones"
+        file: "src/data/exposiciones.json"
+        fields:
+          - label: "Exposiciones"
+            name: "exposiciones"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Lugar", name: "venue", widget: "string" }
+              - { label: "Ubicación", name: "location", widget: "string" }
+              - { label: "Fecha", name: "date", widget: "string" }
+              - {
+                  label: "Tipo",
+                  name: "type",
+                  widget: "select",
+                  options: ["solo", "group"],
+                }
+              - {
+                  label: "Imagen",
+                  name: "imageUrl",
+                  widget: "image",
+                  required: false,
+                }
+              - {
+                  label: "Descripción",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+
+  # PRINTS/VENTAS
+  - name: "prints"
+    label: "Prints"
+    files:
+      - name: "prints"
+        label: "Prints"
+        file: "src/data/prints.json"
+        fields:
+          - label: "Prints"
+            name: "prints"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Imagen", name: "imageUrl", widget: "image" }
+              - { label: "Edición", name: "edition", widget: "string" }
+              - { label: "Tamaño", name: "size", widget: "string" }
+              - {
+                  label: "Precio",
+                  name: "price",
+                  widget: "string",
+                  required: false,
+                }
+              - { label: "Disponible", name: "available", widget: "boolean" }
+
+  # PRENSA
+  - name: "prensa"
+    label: "Prensa"
+    files:
+      - name: "prensa"
+        label: "Prensa"
+        file: "src/data/prensa.json"
+        fields:
+          - label: "Prensa"
+            name: "prensa"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Publicación", name: "publication", widget: "string" }
+              - { label: "Fecha", name: "date", widget: "string" }
+              - {
+                  label: "Extracto",
+                  name: "excerpt",
+                  widget: "text",
+                  required: false,
+                }
+              - {
+                  label: "Link",
+                  name: "link",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Imagen",
+                  name: "imageUrl",
+                  widget: "image",
+                  required: false,
+                }
