@@ -9,5 +9,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: process.env.NETLIFY ? '/' : '/artistic-portfolio-hub/'
+  // base: process.env.NETLIFY ? '/' : '/artistic-portfolio-hub/'
+  base: '/'
 })
