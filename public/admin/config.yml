@@ -1,130 +1,159 @@
+# Use DecapBridge PKCE auth (required)
 backend:
-  name: test-repo
+  name: git-gateway
+  repo: arturfrut/artistic-portfolio-hub
   branch: main
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/ada39418-e4aa-4b28-8df6-3d43ffa51664/pkce
+  auth_token_endpoint: /sites/ada39418-e4aa-4b28-8df6-3d43ffa51664/token
+  gateway_url: https://gateway.decapbridge.com
+
+  # See who did what (optional)
+  commit_messages:
+    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+
+# Enable PKCE fields (optional, recommended)
+auth:
+  email_claim: email
+  first_name_claim: first_name
+  last_name_claim: last_name
+  avatar_url_claim: avatar_url
+
+# Better Decap + Bridge logo (optional)
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+
+# Add site links in Decap CMS (optional)
+site_url: https://artistic-portfolio-hub.netlify.app
 
 # Dónde se guardan las imágenes
-media_folder: "public/images"
-public_folder: "images"
+media_folder: 'public/images'
+public_folder: 'images'
 
 # Colecciones
 collections:
   # OBRAS
-  - name: "obras"
-    label: "Obras"
+  - name: 'obras'
+    label: 'Obras'
     files:
-      - name: "obras"
-        label: "Obras"
-        file: "src/data/obras.json"
+      - name: 'obras'
+        label: 'Obras'
+        file: 'src/data/obras.json'
         fields:
-          - label: "Obras"
-            name: "obras"
-            widget: "list"
+          - label: 'Obras'
+            name: 'obras'
+            widget: 'list'
             fields:
-              - { label: "ID", name: "id", widget: "string" }
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Año", name: "year", widget: "string" }
-              - { label: "Técnica", name: "medium", widget: "string" }
-              - { label: "Dimensiones", name: "dimensions", widget: "string" }
-              - { label: "Imagen", name: "imageUrl", widget: "image" }
+              - { label: 'ID', name: 'id', widget: 'string' }
+              - { label: 'Título', name: 'title', widget: 'string' }
+              - { label: 'Año', name: 'year', widget: 'string' }
+              - { label: 'Técnica', name: 'medium', widget: 'string' }
+              - { label: 'Dimensiones', name: 'dimensions', widget: 'string' }
+              - { label: 'Imagen', name: 'imageUrl', widget: 'image' }
               - {
-                  label: "Categoría",
-                  name: "category",
-                  widget: "select",
-                  options: ["paintings", "works-on-paper"],
+                  label: 'Categoría',
+                  name: 'category',
+                  widget: 'select',
+                  options: ['paintings', 'works-on-paper']
                 }
 
   # EXPOSICIONES
-  - name: "exposiciones"
-    label: "Exposiciones"
+  - name: 'exposiciones'
+    label: 'Exposiciones'
     files:
-      - name: "exposiciones"
-        label: "Exposiciones"
-        file: "src/data/exposiciones.json"
+      - name: 'exposiciones'
+        label: 'Exposiciones'
+        file: 'src/data/exposiciones.json'
         fields:
-          - label: "Exposiciones"
-            name: "exposiciones"
-            widget: "list"
+          - label: 'Exposiciones'
+            name: 'exposiciones'
+            widget: 'list'
             fields:
-              - { label: "ID", name: "id", widget: "string" }
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Lugar", name: "venue", widget: "string" }
-              - { label: "Ubicación", name: "location", widget: "string" }
-              - { label: "Fecha", name: "date", widget: "string" }
+              - { label: 'ID', name: 'id', widget: 'string' }
+              - { label: 'Título', name: 'title', widget: 'string' }
+              - { label: 'Lugar', name: 'venue', widget: 'string' }
+              - { label: 'Ubicación', name: 'location', widget: 'string' }
+              - { label: 'Fecha', name: 'date', widget: 'string' }
               - {
-                  label: "Tipo",
-                  name: "type",
-                  widget: "select",
-                  options: ["solo", "group"],
+                  label: 'Tipo',
+                  name: 'type',
+                  widget: 'select',
+                  options: ['solo', 'group']
                 }
               - {
-                  label: "Imagen",
-                  name: "imageUrl",
-                  widget: "image",
-                  required: false,
+                  label: 'Imagen',
+                  name: 'imageUrl',
+                  widget: 'image',
+                  required: false
                 }
               - {
-                  label: "Descripción",
-                  name: "description",
-                  widget: "text",
-                  required: false,
+                  label: 'Descripción',
+                  name: 'description',
+                  widget: 'text',
+                  required: false
                 }
 
   # PRINTS/VENTAS
-  - name: "prints"
-    label: "Prints"
+  - name: 'prints'
+    label: 'Prints'
     files:
-      - name: "prints"
-        label: "Prints"
-        file: "src/data/prints.json"
+      - name: 'prints'
+        label: 'Prints'
+        file: 'src/data/prints.json'
         fields:
-          - label: "Prints"
-            name: "prints"
-            widget: "list"
+          - label: 'Prints'
+            name: 'prints'
+            widget: 'list'
             fields:
-              - { label: "ID", name: "id", widget: "string" }
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Imagen", name: "imageUrl", widget: "image" }
-              - { label: "Edición", name: "edition", widget: "string" }
-              - { label: "Tamaño", name: "size", widget: "string" }
+              - { label: 'ID', name: 'id', widget: 'string' }
+              - { label: 'Título', name: 'title', widget: 'string' }
+              - { label: 'Imagen', name: 'imageUrl', widget: 'image' }
+              - { label: 'Edición', name: 'edition', widget: 'string' }
+              - { label: 'Tamaño', name: 'size', widget: 'string' }
               - {
-                  label: "Precio",
-                  name: "price",
-                  widget: "string",
-                  required: false,
+                  label: 'Precio',
+                  name: 'price',
+                  widget: 'string',
+                  required: false
                 }
-              - { label: "Disponible", name: "available", widget: "boolean" }
+              - { label: 'Disponible', name: 'available', widget: 'boolean' }
 
   # PRENSA
-  - name: "prensa"
-    label: "Prensa"
+  - name: 'prensa'
+    label: 'Prensa'
     files:
-      - name: "prensa"
-        label: "Prensa"
-        file: "src/data/prensa.json"
+      - name: 'prensa'
+        label: 'Prensa'
+        file: 'src/data/prensa.json'
         fields:
-          - label: "Prensa"
-            name: "prensa"
-            widget: "list"
+          - label: 'Prensa'
+            name: 'prensa'
+            widget: 'list'
             fields:
-              - { label: "ID", name: "id", widget: "string" }
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Publicación", name: "publication", widget: "string" }
-              - { label: "Fecha", name: "date", widget: "string" }
+              - { label: 'ID', name: 'id', widget: 'string' }
+              - { label: 'Título', name: 'title', widget: 'string' }
+              - { label: 'Publicación', name: 'publication', widget: 'string' }
+              - { label: 'Fecha', name: 'date', widget: 'string' }
               - {
-                  label: "Extracto",
-                  name: "excerpt",
-                  widget: "text",
-                  required: false,
+                  label: 'Extracto',
+                  name: 'excerpt',
+                  widget: 'text',
+                  required: false
                 }
               - {
-                  label: "Link",
-                  name: "link",
-                  widget: "string",
-                  required: false,
+                  label: 'Link',
+                  name: 'link',
+                  widget: 'string',
+                  required: false
                 }
               - {
-                  label: "Imagen",
-                  name: "imageUrl",
-                  widget: "image",
-                  required: false,
+                  label: 'Imagen',
+                  name: 'imageUrl',
+                  widget: 'image',
+                  required: false
                 }
