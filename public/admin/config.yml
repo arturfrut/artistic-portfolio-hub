@@ -1,4 +1,3 @@
-# Backend - Por ahora local, después configuramos Git
 backend:
   name: git-gateway
   branch: main
@@ -7,10 +6,7 @@ backend:
 media_folder: "public/images"
 public_folder: "images"
 
-# Idioma de la interfaz
-locale: "es"
-
-# Colecciones (las 4 secciones que tenés)
+# Colecciones
 collections:
   # OBRAS
   - name: "obras"
