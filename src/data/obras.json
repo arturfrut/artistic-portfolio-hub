@@ -2,23 +2,24 @@
   "obras": [
     {
       "id": "1",
-      "title": "Fragmentos del Silencio ooo!",
+      "title": "Laumë Thorelai — Guardiana de los Sueños del Bosque",
       "year": "2025",
-      "medium": "Óleo sobre lienzo",
-      "dimensions": "150 x 120 cm",
-      "imageUrl": "images/artwork-1.jpg",
+      "medium": "-",
+      "dimensions": "90 x 100 cm",
+      "imageUrl": "images/whatsapp-image-2026-02-02-at-13.16.05.jpeg",
       "gallery": [
         {
           "type": "image",
-          "image": "images/artwork-2.jpg"
-        },
-        {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "image": "images/whatsapp-image-2026-02-02-at-13.17.39.jpeg"
         },
         {
           "type": "image",
-          "image": "images/artwork-3.jpg"
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "image": "images/whatsapp-image-2026-02-02-at-13.17.37-2-.jpeg"
+        },
+        {
+          "type": "image",
+          "image": "images/whatsapp-image-2026-02-02-at-13.17.38-2-.jpeg"
         }
       ]
     },
