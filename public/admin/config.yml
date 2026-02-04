@@ -60,7 +60,7 @@ collections:
                   name: 'gallery',
                   widget: 'list',
                   required: false,
-                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                  field: { label: 'URL de Imagen o Video', name: 'media', widget: 'string' }
                 }
               - {
                   label: 'Categoría',
@@ -103,7 +103,7 @@ collections:
                   name: 'gallery',
                   widget: 'list',
                   required: false,
-                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                  field: { label: 'URL de Imagen o Video', name: 'media', widget: 'string' }
                 }
               - {
                   label: 'Descripción',
@@ -132,7 +132,7 @@ collections:
                   name: 'gallery',
                   widget: 'list',
                   required: false,
-                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                  field: { label: 'URL de Imagen o Video', name: 'media', widget: 'string' }
                 }
               - { label: 'Edición', name: 'edition', widget: 'string' }
               - { label: 'Tamaño', name: 'size', widget: 'string' }
@@ -183,5 +183,5 @@ collections:
                   name: 'gallery',
                   widget: 'list',
                   required: false,
-                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                  field: { label: 'URL de Imagen o Video', name: 'media', widget: 'string' }
                 }
