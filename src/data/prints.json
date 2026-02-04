@@ -9,8 +9,18 @@
       "price": "$350",
       "available": true,
       "gallery": [
-        "images/artwork-6.jpg",
-        "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+        {
+          "type": "image",
+          "image": "images/artwork-2.jpg"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "type": "image",
+          "image": "images/artwork-3.jpg"
+        }
       ]
     },
     {

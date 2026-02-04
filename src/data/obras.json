@@ -8,9 +8,18 @@
       "dimensions": "150 x 120 cm",
       "imageUrl": "images/artwork-1.jpg",
       "gallery": [
-        "images/artwork-2.jpg",
-        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "images/artwork-3.jpg"
+        {
+          "type": "image",
+          "image": "images/artwork-2.jpg"
+        },
+        {
+          "type": "video",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "type": "image",
+          "image": "images/artwork-3.jpg"
+        }
       ]
     },
     {

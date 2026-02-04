@@ -43,13 +43,20 @@ function getYouTubeEmbedUrl(url: string): string {
 function buildMediaArray(item: ModalItem): string[] {
   const mediaArray: string[] = []
 
-  // All types should have imageUrl (or it's optional for exhibitions)
+  // Add main image first
   if (item.imageUrl) {
     mediaArray.push(item.imageUrl)
   }
 
+  // Add gallery items
   if (item.gallery && item.gallery.length > 0) {
-    mediaArray.push(...item.gallery)
+    item.gallery.forEach(media => {
+      if (media.type === 'image' && media.image) {
+        mediaArray.push(media.image)
+      } else if (media.type === 'video' && media.videoUrl) {
+        mediaArray.push(media.videoUrl)
+      }
+    })
   }
 
   return mediaArray

@@ -10,8 +10,14 @@
       "imageUrl": "images/artwork-1.jpg",
       "description": "Una exploración de la identidad fragmentada a través del color y la forma.",
       "gallery": [
-        "images/artwork-4.jpg",
-        "images/artwork-5.jpg"
+        {
+          "type": "image",
+          "image": "images/artwork-2.jpg"
+        },
+        {
+          "type": "image",
+          "image": "images/artwork-3.jpg"
+        }
       ]
     },
     {

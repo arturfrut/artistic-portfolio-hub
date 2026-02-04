@@ -5,6 +5,12 @@ import printsData from "./prints.json";
 import prensaData from "./prensa.json";
 
 // Interfaces
+
+export interface GalleryMedia {
+  type: 'image' | 'video';
+  image?: string;
+  videoUrl?: string;
+}
 export interface Exhibition {
   id: string;
   title: string;
@@ -14,7 +20,7 @@ export interface Exhibition {
   type: "solo" | "group";
   imageUrl?: string;
   description?: string;
-  gallery?: string[];
+  gallery?: GalleryMedia[];
 }
 
 export interface Print {
@@ -25,7 +31,7 @@ export interface Print {
   size: string;
   price?: string;
   available: boolean;
-  gallery?: string[];
+  gallery?: GalleryMedia[];
 }
 
 export interface PressItem {
@@ -36,7 +42,7 @@ export interface PressItem {
   excerpt?: string;
   link?: string;
   imageUrl?: string;
-  gallery?: string[];
+  gallery?: GalleryMedia[];
 }
 
 // Exportamos extrayendo el array de dentro del objeto
