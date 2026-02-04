@@ -7,7 +7,6 @@
       "medium": "Óleo sobre lienzo",
       "dimensions": "150 x 120 cm",
       "imageUrl": "images/artwork-1.jpg",
-      "category": "paintings",
       "gallery": [
         "images/artwork-2.jpg",
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -20,8 +19,7 @@
       "year": "2024",
       "medium": "Acrílico y técnica mixta",
       "dimensions": "180 x 140 cm",
-      "imageUrl": "images/artwork-2.jpg",
-      "category": "paintings"
+      "imageUrl": "images/artwork-2.jpg"
     },
     {
       "id": "3",
@@ -29,8 +27,7 @@
       "year": "2023",
       "medium": "Óleo sobre lienzo",
       "dimensions": "100 x 80 cm",
-      "imageUrl": "images/artwork-3.jpg",
-      "category": "paintings"
+      "imageUrl": "images/artwork-3.jpg"
     },
     {
       "id": "4",
@@ -38,8 +35,7 @@
       "year": "2023",
       "medium": "Técnica mixta sobre papel",
       "dimensions": "70 x 50 cm",
-      "imageUrl": "images/artwork-4.jpg",
-      "category": "works-on-paper"
+      "imageUrl": "images/artwork-4.jpg"
     },
     {
       "id": "5",
@@ -47,8 +43,7 @@
       "year": "2023",
       "medium": "Acrílico sobre lienzo",
       "dimensions": "200 x 160 cm",
-      "imageUrl": "images/artwork-5.jpg",
-      "category": "paintings"
+      "imageUrl": "images/artwork-5.jpg"
     },
     {
       "id": "6",
@@ -56,8 +51,7 @@
       "year": "2022",
       "medium": "Óleo y carbón",
       "dimensions": "120 x 100 cm",
-      "imageUrl": "images/artwork-6.jpg",
-      "category": "paintings"
+      "imageUrl": "images/artwork-6.jpg"
     }
   ]
 }

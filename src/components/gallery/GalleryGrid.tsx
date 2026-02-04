@@ -8,7 +8,6 @@ export interface GalleryItem {
   medium?: string;
   dimensions?: string;
   imageUrl: string;
-  category?: string;
   gallery?: string[];
 }
 
