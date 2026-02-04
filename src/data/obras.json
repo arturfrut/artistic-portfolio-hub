@@ -51,11 +51,25 @@
     },
     {
       "id": "4",
-      "title": "Naturaleza Abstracta",
+      "title": "La cena esta servida",
       "year": "2023",
-      "medium": "Técnica mixta sobre papel",
-      "dimensions": "70 x 50 cm",
-      "imageUrl": "images/artwork-4.jpg"
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "100 x 100 cm",
+      "imageUrl": "images/cap-1-.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "images/sdf.jpg"
+        },
+        {
+          "type": "image",
+          "image": "images/dsc_0757.jpg"
+        },
+        {
+          "type": "image",
+          "image": "images/dsc_0754.jpg"
+        }
+      ]
     },
     {
       "id": "5",
