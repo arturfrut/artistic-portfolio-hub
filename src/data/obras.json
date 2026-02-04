@@ -7,7 +7,12 @@
       "medium": "Óleo sobre lienzo",
       "dimensions": "150 x 120 cm",
       "imageUrl": "images/artwork-1.jpg",
-      "category": "paintings"
+      "category": "paintings",
+      "gallery": [
+        "images/artwork-2.jpg",
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "images/artwork-3.jpg"
+      ]
     },
     {
       "id": "2",

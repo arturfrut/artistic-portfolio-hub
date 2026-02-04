@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { exhibitions } from "@/data/portfolio";
+import { GalleryModal } from "@/components/gallery/GalleryModal";
 
 const Exhibitions = () => {
+  const [selectedExhibition, setSelectedExhibition] = useState<typeof exhibitions[0] | null>(null);
   const soloExhibitions = exhibitions.filter((e) => e.type === "solo");
   const groupExhibitions = exhibitions.filter((e) => e.type === "group");
 
@@ -24,7 +27,10 @@ const Exhibitions = () => {
                   style={{ animationDelay: `${0.2 + index * 0.1}s` }}
                 >
                   {exhibition.imageUrl && (
-                    <div className="gallery-item aspect-[16/10]">
+                    <div 
+                      className="gallery-item aspect-[16/10] cursor-pointer"
+                      onClick={() => setSelectedExhibition(exhibition)}
+                    >
                       <img
                         src={exhibition.imageUrl}
                         alt={exhibition.title}
@@ -55,6 +61,11 @@ const Exhibitions = () => {
 
         </div>
       </section>
+
+      <GalleryModal
+        item={selectedExhibition ? { ...selectedExhibition, itemType: "exhibition" as const } : null}
+        onClose={() => setSelectedExhibition(null)}
+      />
     </Layout>
   );
 };

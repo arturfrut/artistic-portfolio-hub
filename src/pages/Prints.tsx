@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { prints } from "@/data/portfolio";
+import { GalleryModal } from "@/components/gallery/GalleryModal";
 
 const Prints = () => {
+  const [selectedPrint, setSelectedPrint] = useState<typeof prints[0] | null>(null);
+
   return (
     <Layout>
       <section className="py-12">
@@ -20,7 +24,10 @@ const Prints = () => {
                 className="group opacity-0 animate-fade-in-up"
                 style={{ animationDelay: `${0.2 + index * 0.1}s` }}
               >
-                <div className="gallery-item aspect-[4/5] mb-4">
+                <div 
+                  className="gallery-item aspect-[4/5] mb-4 cursor-pointer"
+                  onClick={() => setSelectedPrint(print)}
+                >
                   <img
                     src={print.imageUrl}
                     alt={print.title}
@@ -42,11 +49,6 @@ const Prints = () => {
                 {print.price && print.available && (
                   <p className="text-primary font-medium">{print.price}</p>
                 )}
-                {print.available && (
-                  <button className="mt-4 text-sm uppercase tracking-[0.15em] border border-foreground px-6 py-2 hover:bg-foreground hover:text-background transition-all duration-300 opacity-0 group-hover:opacity-100">
-                    Consultar
-                  </button>
-                )}
               </div>
             ))}
           </div>
@@ -66,6 +68,11 @@ const Prints = () => {
           </div>
         </div>
       </section>
+
+      <GalleryModal
+        item={selectedPrint ? { ...selectedPrint, itemType: "print" as const } : null}
+        onClose={() => setSelectedPrint(null)}
+      />
     </Layout>
   );
 };

@@ -9,6 +9,7 @@ export interface GalleryItem {
   dimensions?: string;
   imageUrl: string;
   category?: string;
+  gallery?: string[];
 }
 
 interface GalleryGridProps {
@@ -25,6 +26,10 @@ export function GalleryGrid({ items, columns = 3 }: GalleryGridProps) {
     4: "md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
   };
 
+  const handleItemClick = (item: GalleryItem) => {
+    setSelectedItem(item);
+  };
+
   return (
     <>
       <div className={`grid grid-cols-1 ${gridCols[columns]} gap-6`}>
@@ -33,7 +38,7 @@ export function GalleryGrid({ items, columns = 3 }: GalleryGridProps) {
             key={item.id}
             className="gallery-item aspect-[4/5] opacity-0 animate-fade-in-up"
             style={{ animationDelay: `${index * 0.1}s` }}
-            onClick={() => setSelectedItem(item)}
+            onClick={() => handleItemClick(item)}
           >
             <img
               src={item.imageUrl}
@@ -51,7 +56,7 @@ export function GalleryGrid({ items, columns = 3 }: GalleryGridProps) {
       </div>
 
       <GalleryModal
-        item={selectedItem}
+        item={selectedItem ? { ...selectedItem, itemType: "artwork" as const } : null}
         onClose={() => setSelectedItem(null)}
       />
     </>

@@ -8,7 +8,11 @@
       "date": "2024",
       "type": "solo",
       "imageUrl": "images/artwork-1.jpg",
-      "description": "Una exploración de la identidad fragmentada a través del color y la forma."
+      "description": "Una exploración de la identidad fragmentada a través del color y la forma.",
+      "gallery": [
+        "images/artwork-4.jpg",
+        "images/artwork-5.jpg"
+      ]
     },
     {
       "id": "2",

@@ -56,6 +56,13 @@ collections:
               - { label: 'Dimensiones', name: 'dimensions', widget: 'string' }
               - { label: 'Imagen', name: 'imageUrl', widget: 'image' }
               - {
+                  label: 'Galería (Imágenes o Videos YouTube)',
+                  name: 'gallery',
+                  widget: 'list',
+                  required: false,
+                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                }
+              - {
                   label: 'Categoría',
                   name: 'category',
                   widget: 'select',
@@ -92,6 +99,13 @@ collections:
                   required: false
                 }
               - {
+                  label: 'Galería (Imágenes o Videos YouTube)',
+                  name: 'gallery',
+                  widget: 'list',
+                  required: false,
+                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                }
+              - {
                   label: 'Descripción',
                   name: 'description',
                   widget: 'text',
@@ -113,6 +127,13 @@ collections:
               - { label: 'ID', name: 'id', widget: 'string' }
               - { label: 'Título', name: 'title', widget: 'string' }
               - { label: 'Imagen', name: 'imageUrl', widget: 'image' }
+              - {
+                  label: 'Galería (Imágenes o Videos YouTube)',
+                  name: 'gallery',
+                  widget: 'list',
+                  required: false,
+                  field: { label: 'URL de Imagen o Video', widget: 'string' }
+                }
               - { label: 'Edición', name: 'edition', widget: 'string' }
               - { label: 'Tamaño', name: 'size', widget: 'string' }
               - {
@@ -156,4 +177,11 @@ collections:
                   name: 'imageUrl',
                   widget: 'image',
                   required: false
+                }
+              - {
+                  label: 'Galería (Imágenes o Videos YouTube)',
+                  name: 'gallery',
+                  widget: 'list',
+                  required: false,
+                  field: { label: 'URL de Imagen o Video', widget: 'string' }
                 }
