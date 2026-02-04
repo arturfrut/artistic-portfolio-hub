@@ -7,7 +7,11 @@
       "edition": "Edición limitada de 50",
       "size": "60 x 40 cm",
       "price": "$350",
-      "available": true
+      "available": true,
+      "gallery": [
+        "images/artwork-6.jpg",
+        "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+      ]
     },
     {
       "id": "2",

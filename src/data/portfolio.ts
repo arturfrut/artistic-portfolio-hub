@@ -14,6 +14,7 @@ export interface Exhibition {
   type: "solo" | "group";
   imageUrl?: string;
   description?: string;
+  gallery?: string[];
 }
 
 export interface Print {
@@ -24,6 +25,7 @@ export interface Print {
   size: string;
   price?: string;
   available: boolean;
+  gallery?: string[];
 }
 
 export interface PressItem {
@@ -34,6 +36,7 @@ export interface PressItem {
   excerpt?: string;
   link?: string;
   imageUrl?: string;
+  gallery?: string[];
 }
 
 // Exportamos extrayendo el array de dentro del objeto
