@@ -25,11 +25,21 @@
     },
     {
       "id": "2",
-      "title": "La Danza del Caos",
-      "year": "2024",
-      "medium": "Acrílico y técnica mixta",
-      "dimensions": "180 x 140 cm",
-      "imageUrl": "images/artwork-2.jpg"
+      "title": "Arqueología del presente",
+      "year": "2025",
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "96 x 100 cm",
+      "imageUrl": "images/cuadro.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "images/dsc_0629.jpg"
+        },
+        {
+          "type": "image",
+          "image": "images/whatsapp-image-2026-02-02-at-13.25.52.jpeg"
+        }
+      ]
     },
     {
       "id": "3",
