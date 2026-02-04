@@ -73,11 +73,25 @@
     },
     {
       "id": "5",
-      "title": "Constelaciones Urbanas",
+      "title": "Lunes argento",
       "year": "2023",
-      "medium": "Acrílico sobre lienzo",
-      "dimensions": "200 x 160 cm",
-      "imageUrl": "images/artwork-5.jpg"
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "90 x 100 cm",
+      "imageUrl": "images/concurso-1.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "images/concurso-7.jpeg"
+        },
+        {
+          "type": "image",
+          "image": "images/concurso-6.jpeg"
+        },
+        {
+          "type": "image",
+          "image": "images/concurso-4.jpg"
+        }
+      ]
     },
     {
       "id": "6",
