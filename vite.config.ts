@@ -9,5 +9,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: process.env.VITE_BASE_PATH || '/artistic-portfolio-hub/'
+  // base: process.env.VITE_BASE_PATH || '/artistic-portfolio-hub/'
+  base: '/artistic-portfolio-hub/'
 })

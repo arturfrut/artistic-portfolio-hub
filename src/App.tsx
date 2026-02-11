@@ -12,14 +12,15 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
-const basename = import.meta.env.VITE_BASE_PATH || '/artistic-portfolio-hub';
+// const basename = import.meta.env.VITE_BASE_PATH || '/artistic-portfolio-hub';
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={basename}>
+      {/* <BrowserRouter basename={basename}> */}
+      <BrowserRouter basename='/artistic-portfolio-hub'>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/portfolio" element={<Portfolio />} />
