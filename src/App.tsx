@@ -20,7 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       {/* <BrowserRouter basename={basename}> */}
-      <BrowserRouter basename='/artistic-portfolio-hub'>
+      <BrowserRouter basename='/'>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/portfolio" element={<Portfolio />} />

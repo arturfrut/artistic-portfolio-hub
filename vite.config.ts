@@ -10,5 +10,5 @@ export default defineConfig({
     }
   },
   // base: process.env.VITE_BASE_PATH || '/artistic-portfolio-hub/'
-  base: '/artistic-portfolio-hub/'
+  base: '/'
 })
