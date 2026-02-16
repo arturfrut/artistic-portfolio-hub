@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Fragmentos I",
-      "imageUrl": "images/artwork-1.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/artwork-1_zh3kem.jpg",
       "edition": "Edición limitada de 50",
       "size": "60 x 40 cm",
       "price": "$350",
@@ -11,7 +11,7 @@
       "gallery": [
         {
           "type": "image",
-          "image": "images/artwork-2.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg"
         },
         {
           "type": "video",
@@ -26,7 +26,7 @@
     {
       "id": "2",
       "title": "La Danza",
-      "imageUrl": "images/artwork-2.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg",
       "edition": "Edición limitada de 30",
       "size": "80 x 60 cm",
       "price": "$500",
@@ -35,7 +35,7 @@
     {
       "id": "3",
       "title": "Ecos",
-      "imageUrl": "images/artwork-3.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg",
       "edition": "Edición limitada de 50",
       "size": "50 x 40 cm",
       "price": "$280",

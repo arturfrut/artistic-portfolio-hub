@@ -7,16 +7,16 @@
       "location": "Buenos Aires, Argentina",
       "date": "2024",
       "type": "solo",
-      "imageUrl": "images/artwork-1.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/artwork-1_zh3kem.jpg",
       "description": "Una exploración de la identidad fragmentada a través del color y la forma.",
       "gallery": [
         {
           "type": "image",
-          "image": "images/artwork-2.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg"
         },
         {
           "type": "image",
-          "image": "images/artwork-3.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
         }
       ]
     },
@@ -35,7 +35,7 @@
       "location": "Buenos Aires, Argentina",
       "date": "2023",
       "type": "solo",
-      "imageUrl": "images/artwork-3.jpg"
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
     },
     {
       "id": "4",
