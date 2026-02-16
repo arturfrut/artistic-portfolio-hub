@@ -10,16 +10,11 @@
       "gallery": [
         {
           "type": "image",
-          "image": "images/whatsapp-image-2026-02-02-at-13.17.39.jpeg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/whatsapp-image-2026-02-02-at-13.17.39_hpwq9v.jpg"
         },
         {
           "type": "image",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "image": "images/whatsapp-image-2026-02-02-at-13.17.37-2-.jpeg"
-        },
-        {
-          "type": "image",
-          "image": "images/whatsapp-image-2026-02-02-at-13.17.38-2-.jpeg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/whatsapp-image-2026-02-02-at-13.17.38-2-_ypubqr.jpg"
         }
       ]
     },
@@ -29,7 +24,7 @@
       "year": "2025",
       "medium": "Oleo sobre lienzo",
       "dimensions": "96 x 100 cm",
-      "imageUrl": "images/cuadro.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070138/cuadro_wwnak6.jpg",
       "gallery": [
         {
           "type": "image",
@@ -47,7 +42,7 @@
       "year": "2023",
       "medium": "Oleo sobre lienzo",
       "dimensions": "90 x 100 cm",
-      "imageUrl": "images/monstruo.jpg"
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/monstruo_exiymk.jpg"
     },
     {
       "id": "4",
@@ -55,19 +50,19 @@
       "year": "2023",
       "medium": "Oleo sobre lienzo",
       "dimensions": "100 x 100 cm",
-      "imageUrl": "images/cap-1-.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070134/cap-1-_eo9wcb.jpg",
       "gallery": [
         {
           "type": "image",
-          "image": "images/sdf.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070140/sdf_dzz3mu.jpg"
         },
         {
           "type": "image",
-          "image": "images/dsc_0757.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070140/dsc_0754_lk49hc.jpg"
         },
         {
           "type": "image",
-          "image": "images/dsc_0754.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070139/dsc_0629_cezf3g.jpg"
         }
       ]
     },
@@ -77,29 +72,17 @@
       "year": "2023",
       "medium": "Oleo sobre lienzo",
       "dimensions": "90 x 100 cm",
-      "imageUrl": "images/concurso-1.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070141/concurso-1_y5iptb.jpg",
       "gallery": [
         {
           "type": "image",
-          "image": "images/concurso-7.jpeg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-7_ezrycb.jpg"
         },
         {
           "type": "image",
-          "image": "images/concurso-6.jpeg"
-        },
-        {
-          "type": "image",
-          "image": "images/concurso-4.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-6_vsnkph.jpg"
         }
       ]
-    },
-    {
-      "id": "6",
-      "title": "El Peso del Vacío",
-      "year": "2022",
-      "medium": "Óleo y carbón",
-      "dimensions": "120 x 100 cm",
-      "imageUrl": "images/artwork-6.jpg"
     }
   ]
 }
