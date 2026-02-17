@@ -18,7 +18,8 @@
           "type": "image",
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
         }
-      ]
+      ],
+      "published": false
     },
     {
       "id": "2",
