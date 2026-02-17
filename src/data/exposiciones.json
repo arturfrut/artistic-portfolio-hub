@@ -26,7 +26,8 @@
       "venue": "Museo de Arte Moderno",
       "location": "Ciudad de México, México",
       "date": "2023",
-      "type": "group"
+      "type": "group",
+      "published": false
     },
     {
       "id": "3",
@@ -47,4 +48,3 @@
     }
   ]
 }
-
