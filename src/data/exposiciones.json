@@ -38,14 +38,6 @@
       "date": "2023",
       "type": "solo",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
-    },
-    {
-      "id": "4",
-      "title": "Arte Emergente del Sur",
-      "venue": "MALBA",
-      "location": "Buenos Aires, Argentina",
-      "date": "2022",
-      "type": "group"
     }
   ]
 }
