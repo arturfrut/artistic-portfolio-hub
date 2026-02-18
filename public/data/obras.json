@@ -104,6 +104,16 @@
       "year": "2025",
       "medium": "Oleo sobre Lienxo",
       "dimensions": "60 x 80 cm"
+    },
+    {
+      "id": "1771429662211",
+      "title": "Alicia",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771429659/lfufkkbmxqhtibrneswt.png",
+      "gallery": [],
+      "published": true,
+      "year": "2025",
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "50 x 70 "
     }
   ]
 }
