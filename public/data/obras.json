@@ -84,6 +84,16 @@
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-6_vsnkph.jpg"
         }
       ]
+    },
+    {
+      "id": "1771421817367",
+      "title": "Ilusiones",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771421800/jlcvlvptxqpm4swngabr.jpg",
+      "gallery": [],
+      "published": true,
+      "year": "2025",
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "-"
     }
   ]
 }
