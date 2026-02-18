@@ -38,6 +38,24 @@
       ]
     },
     {
+      "id": "5",
+      "title": "Lunes argento",
+      "year": "2023",
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "90 x 100 cm",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070141/concurso-1_y5iptb.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-7_ezrycb.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-6_vsnkph.jpg"
+        }
+      ]
+    },
+    {
       "id": "3",
       "title": "Epifan√≠a en la penumbra",
       "year": "2023",
@@ -68,24 +86,6 @@
       ]
     },
     {
-      "id": "5",
-      "title": "Lunes argento",
-      "year": "2023",
-      "medium": "Oleo sobre lienzo",
-      "dimensions": "90 x 100 cm",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070141/concurso-1_y5iptb.jpg",
-      "gallery": [
-        {
-          "type": "image",
-          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-7_ezrycb.jpg"
-        },
-        {
-          "type": "image",
-          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-6_vsnkph.jpg"
-        }
-      ]
-    },
-    {
       "id": "1771421817367",
       "title": "Ilusiones",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771421800/jlcvlvptxqpm4swngabr.jpg",
@@ -104,16 +104,6 @@
       "year": "2025",
       "medium": "Oleo sobre Lienxo",
       "dimensions": "60 x 80 cm"
-    },
-    {
-      "id": "1771429340175",
-      "title": "La Muza",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771429335/vto5hxcynrmyt2umdsno.jpg",
-      "gallery": [],
-      "published": true,
-      "year": "2025",
-      "medium": "”leo sobre lienzo",
-      "dimensions": "90 x 120"
     }
   ]
 }
