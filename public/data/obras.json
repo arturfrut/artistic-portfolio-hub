@@ -114,6 +114,16 @@
       "year": "2025",
       "medium": "Oleo sobre lienzo",
       "dimensions": "50 x 70 "
+    },
+    {
+      "id": "1771429895606",
+      "title": "La musa",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771429867/kqsry7nv5crx9t5sgj23.jpg",
+      "gallery": [],
+      "published": true,
+      "year": "2025",
+      "medium": "Óleo sobre lienzo",
+      "dimensions": "90 x 120"
     }
   ]
 }
