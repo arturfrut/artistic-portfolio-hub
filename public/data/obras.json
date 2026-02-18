@@ -104,6 +104,16 @@
       "year": "2025",
       "medium": "Oleo sobre Lienxo",
       "dimensions": "60 x 80 cm"
+    },
+    {
+      "id": "1771429340175",
+      "title": "La Muza",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771429335/vto5hxcynrmyt2umdsno.jpg",
+      "gallery": [],
+      "published": true,
+      "year": "2025",
+      "medium": "Óleo sobre lienzo",
+      "dimensions": "90 x 120"
     }
   ]
 }
