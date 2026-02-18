@@ -32,6 +32,9 @@ jobs:
       
       - name: Build
         run: npm run build
+        env:
+          VITE_CLOUD_NAME: ${{ secrets.VITE_CLOUD_NAME }}
+          VITE_UPLOAD_PRESET: ${{ secrets.VITE_UPLOAD_PRESET }}
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

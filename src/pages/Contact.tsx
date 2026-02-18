@@ -23,7 +23,7 @@ const Contact = () => {
               <div className="flex items-center justify-center gap-3">
                 <Instagram className="text-secondary" size={20} />
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/ignaciocevecoeur"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-lg hover:text-secondary transition-colors"
