@@ -3,10 +3,7 @@
     {
       "id": "1",
       "title": "Laumë Thorelai — Guardiana de los Sueños del Bosque",
-      "year": "2025",
-      "medium": "Oleo sobre lienzo",
-      "dimensions": "90 x 100 cm",
-      "imageUrl": "images/whatsapp-image-2026-02-02-at-13.16.05.jpeg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771420989/esy013ywsprhof4l9jie.jpg",
       "gallery": [
         {
           "type": "image",
@@ -16,7 +13,11 @@
           "type": "image",
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/whatsapp-image-2026-02-02-at-13.17.38-2-_ypubqr.jpg"
         }
-      ]
+      ],
+      "published": true,
+      "year": "2025",
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "90 x 100 cm"
     },
     {
       "id": "2",
