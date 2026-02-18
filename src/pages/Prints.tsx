@@ -11,7 +11,7 @@ const Prints = () => {
     <Layout>
       <section className="py-12">
         <div className="container mx-auto px-6">
-          <h1 className="section-title opacity-0 animate-fade-in-up">Prints</h1>
+          <h1 className="section-title opacity-0 animate-fade-in-up">On sale</h1>
 
           <p className="text-muted-foreground max-w-2xl mb-12 opacity-0 animate-fade-in-up stagger-1">
             Ediciones limitadas de alta calidad, impresas en papel fine art con
