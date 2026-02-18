@@ -3,11 +3,13 @@
     {
       "id": "1",
       "title": "El nuevo lenguaje visual de Ignacio Crevecoeur",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/artwork-5_py1jzv.jpg",
+      "gallery": [],
+      "published": true,
       "publication": "Revista Ñ - Clarín",
       "date": "Marzo 2024",
-      "excerpt": "Una mirada profunda al trabajo del artista que está redefiniendo el arte contemporáneo argentino.",
-      "link": "#",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/artwork-5_py1jzv.jpg"
+      "excerpt": "Una mirada profunda al trabajo del artista que está redefiniendo el arte contemporáneo argentino. En mar del plata",
+      "link": "#"
     },
     {
       "id": "2",

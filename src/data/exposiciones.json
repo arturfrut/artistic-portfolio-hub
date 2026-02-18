@@ -18,7 +18,8 @@
           "type": "image",
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
         }
-      ]
+      ],
+      "published": true
     },
     {
       "id": "2",
@@ -26,7 +27,8 @@
       "venue": "Museo de Arte Moderno",
       "location": "Ciudad de México, México",
       "date": "2023",
-      "type": "group"
+      "type": "group",
+      "published": true
     },
     {
       "id": "3",
@@ -36,15 +38,6 @@
       "date": "2023",
       "type": "solo",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
-    },
-    {
-      "id": "4",
-      "title": "Arte Emergente del Sur",
-      "venue": "MALBA",
-      "location": "Buenos Aires, Argentina",
-      "date": "2022",
-      "type": "group"
     }
   ]
 }
-
