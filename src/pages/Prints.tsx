@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
-import { prints } from "@/data/portfolio";
+import { Print } from "@/data/portfolio";
 import { GalleryModal } from "@/components/gallery/GalleryModal";
+import { usePortfolioData } from "@/hooks/usePortfolioData";
 
 const Prints = () => {
-  const [selectedPrint, setSelectedPrint] = useState<typeof prints[0] | null>(null);
-
+ const { data: prints, loading } = usePortfolioData<Print>('prints.json', 'prints');
+  const [selectedPrint, setSelectedPrint] = useState<Print | null>(null);
   return (
     <Layout>
       <section className="py-12">

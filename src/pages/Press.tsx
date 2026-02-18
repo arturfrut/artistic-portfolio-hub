@@ -1,8 +1,13 @@
 import { Layout } from "@/components/layout/Layout";
-import { pressItems } from "@/data/portfolio";
+import { PressItem } from "@/data/portfolio";
+import { usePortfolioData } from "@/hooks/usePortfolioData";
 import { ArrowUpRight } from "lucide-react";
 
 const Press = () => {
+    const { data: pressItems, loading } = usePortfolioData<PressItem>(
+      'prensa.json',
+      'prensa'
+    )
   return (
     <Layout>
       <section className="py-12">

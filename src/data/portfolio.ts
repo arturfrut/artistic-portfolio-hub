@@ -1,11 +1,4 @@
-import { GalleryItem } from "@/components/gallery/GalleryGrid";
-import obrasData from "./obras.json";
-import exposicionesData from "./exposiciones.json";
-import printsData from "./prints.json";
-import prensaData from "./prensa.json";
-
 // Interfaces
-
 export interface GalleryMedia {
   type: 'image' | 'video';
   image?: string;
@@ -45,8 +38,3 @@ export interface PressItem {
   gallery?: GalleryMedia[];
 }
 
-// Exportamos extrayendo el array de dentro del objeto
-export const portfolioItems: GalleryItem[] = obrasData.obras as GalleryItem[];
-export const exhibitions: Exhibition[] = exposicionesData.exposiciones as Exhibition[];
-export const prints: Print[] = printsData.prints as Print[];
-export const pressItems: PressItem[] = prensaData.prensa as PressItem[];

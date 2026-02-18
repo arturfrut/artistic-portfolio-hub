@@ -1,10 +1,10 @@
 import { ContentType } from './types';
 
 export const FILE_PATHS: Record<ContentType, string> = {
-  obras: 'src/data/obras.json',
-  exposiciones: 'src/data/exposiciones.json',
-  prints: 'src/data/prints.json',
-  prensa: 'src/data/prensa.json',
+  obras: 'public/data/obras.json',
+  exposiciones: 'public/data/exposiciones.json',
+  prints: 'public/data/prints.json',
+  prensa: 'public/data/prensa.json',
 };
 
 export const JSON_KEYS: Record<ContentType, string> = {
