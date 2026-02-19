@@ -3,12 +3,7 @@
     {
       "id": "1",
       "title": "Fragmentos del Alma",
-      "venue": "Galería Arte Contemporáneo",
-      "location": "Buenos Aires, Argentina",
-      "date": "2024",
-      "type": "solo",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/artwork-1_zh3kem.jpg",
-      "description": "Una exploración de la identidad fragmentada a través del color y la forma.",
       "gallery": [
         {
           "type": "image",
@@ -19,7 +14,12 @@
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
         }
       ],
-      "published": true
+      "published": true,
+      "venue": "Galería Arte Contemporáneo",
+      "location": "Buenos Aires, Argentina",
+      "date": "2024",
+      "description": "Una exploración de la identidad fragmentada a través del color y la forma.",
+      "type": "solo"
     },
     {
       "id": "2",
