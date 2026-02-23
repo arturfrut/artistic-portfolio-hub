@@ -257,6 +257,11 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
                 <p className='text-muted-foreground text-sm mb-1'>
                   {item.edition}
                 </p>
+                {item.description && (
+                  <p className='text-muted-foreground text-sm mt-4 leading-relaxed'>
+                    {item.description}
+                  </p>
+                )}
                 <p className='text-muted-foreground text-sm mb-2'>
                   {item.size}
                 </p>
@@ -266,7 +271,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
                 {!item.available && (
                   <p className='text-muted-foreground text-sm mb-4'>Agotado</p>
                 )}
-                
+
                 {item.available && (
                   <a
                     href={`https://wa.me/5491234567890?text=${encodeURIComponent(`Hola, me interesa el print: ${item.title}`)}`}
@@ -277,12 +282,6 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
                     Consultar por WhatsApp
                   </a>
                 )}
-
-                {item.description && (
-  <p className='text-muted-foreground text-sm mt-4 leading-relaxed'>
-    {item.description}
-  </p>
-)}
               </>
             )}
 
