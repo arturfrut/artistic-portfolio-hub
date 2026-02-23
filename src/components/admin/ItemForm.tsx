@@ -23,7 +23,7 @@ function defaultForm(
   }
   switch (type) {
     case 'obras':
-      return { ...base, year: '', medium: '', dimensions: '', ...existing }
+      return { ...base, year: '', medium: '', medium_en: '', dimensions: '', ...existing }
     case 'exposiciones':
       return {
         ...base,
@@ -31,6 +31,7 @@ function defaultForm(
         location: '',
         date: '',
         description: '',
+        description_en: '',
         ...existing
       }
     case 'prints': {
@@ -41,23 +42,26 @@ function defaultForm(
       return {
         ...base,
         edition: '',
+        edition_en: '',
         size: '',
         price: rawPrice,
         priceAmount,
         priceCurrency,
         available: true,
         description: '',
+        description_en: '',
         ...existing
       }
     }
     case 'carrusel':
-      return { ...base, imageUrl: '', caption: '', ...existing }
+      return { ...base, imageUrl: '', caption: '',caption_en: '', ...existing }
     case 'prensa':
       return {
         ...base,
         publication: '',
         date: '',
         excerpt: '',
+        excerpt_en: '',
         link: '',
         ...existing
       }
@@ -233,6 +237,7 @@ export function ItemForm({
           <div className='grid grid-cols-2 gap-3'>
             {field('Año', 'year', '2025')}
             {field('Técnica', 'medium', 'Óleo sobre lienzo')}
+            {field('Técnica (EN)', 'medium_en', 'Oil on canvas')}
           </div>
           {field('Dimensiones', 'dimensions', '90 x 100 cm')}
         </>
@@ -251,6 +256,7 @@ export function ItemForm({
             'Descripción de la exposición...',
             'textarea'
           )}
+          {field('Descripción (EN)', 'description_en', 'Exhibition description...', 'textarea')}
         </>
       )}
 
@@ -258,6 +264,7 @@ export function ItemForm({
         <>
           <div className='grid grid-cols-2 gap-3'>
             {field('Edición', 'edition', 'Edición limitada de 50')}
+            {field('Edición (EN)', 'edition_en', 'Limited edition of 50')}
             {field('Tamaño', 'size', '60 x 40 cm')}
           </div>
           <div>
@@ -295,6 +302,9 @@ export function ItemForm({
             'Descripción del print...',
             'textarea'
           )}
+          {field('Descripción (EN)', 'description_en', 'Print description...', 'textarea')}
+
+          
         </>
       )}
 
@@ -305,6 +315,7 @@ export function ItemForm({
             {field('Fecha', 'date', 'Marzo 2025')}
           </div>
           {field('Extracto', 'excerpt', 'Breve descripción...', 'textarea')}
+          {field('Extracto (EN)', 'excerpt_en', 'Brief description...', 'textarea')}
           {field('Link', 'link', 'https://')}
         </>
       )}
@@ -316,6 +327,8 @@ export function ItemForm({
             'caption',
             'Texto que aparece sobre la imagen'
           )}
+          {field('Caption (EN)', 'caption_en', 'Image caption...')}
+
         </>
       )}
 

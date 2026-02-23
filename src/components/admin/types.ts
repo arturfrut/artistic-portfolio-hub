@@ -15,6 +15,7 @@ export interface BaseItem {
 export interface Obra extends BaseItem {
   year: string;
   medium: string;
+  medium_en?: string;
   dimensions: string;
 }
 

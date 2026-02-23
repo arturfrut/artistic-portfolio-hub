@@ -2,12 +2,13 @@ import { Link } from 'react-router-dom'
 import { Layout } from '@/components/layout/Layout'
 import { ArrowRight } from 'lucide-react'
 import { usePortfolioData } from '@/hooks/usePortfolioData'
+import { useTranslation } from 'react-i18next'
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious
+  CarouselPrevious,
 } from '@/components/ui/carousel'
 import type { GalleryItem } from '@/components/gallery/GalleryGrid'
 
@@ -15,9 +16,13 @@ interface CarouselSlide {
   id: string
   imageUrl: string
   caption?: string
+  caption_en?: string
 }
 
 const Index = () => {
+  const { t, i18n } = useTranslation()
+  const isEN = i18n.language === 'en'
+
   const { data: portfolioItems } = usePortfolioData<GalleryItem>(
     'obras.json',
     'obras'
@@ -44,13 +49,13 @@ const Index = () => {
             <span className='text-gradient'>Crevecoeur</span>
           </h1>
           <p className='text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in-up stagger-2'>
-            Artista visual explorando los límites entre abstracción y emoción
+            {t('home.subtitle')}
           </p>
           <Link
             to='/portfolio'
             className='inline-flex items-center gap-2 text-sm uppercase tracking-[0.2em] border border-foreground px-8 py-4 hover:bg-foreground hover:text-background transition-all duration-300 opacity-0 animate-fade-in-up stagger-3'
           >
-            Ver Portfolio
+            {t('home.cta')}
             <ArrowRight size={16} />
           </Link>
         </div>
@@ -61,50 +66,44 @@ const Index = () => {
         <div className='container mx-auto px-6'>
           <Carousel opts={{ align: 'start', loop: true }} className='w-full'>
             <CarouselContent>
-              {/* Slide de texto — siempre primero */}
+              {/* Slide de texto */}
               <CarouselItem>
                 <div className='flex flex-col items-center justify-center min-h-[400px] md:min-h-[500px] px-4 md:px-16 text-center'>
                   <p className='font-display text-2xl md:text-3xl font-light leading-relaxed'>
-                    Artista plástico argentino, marplatense y docente orientado
-                    al realismo contemporáneo, con una obra de fuerte carga
-                    simbólica, psicológica y social. Su producción se sustenta
-                    en el dominio de técnicas clásicas de la pintura al óleo,
-                    aplicadas a una mirada narrativa y actual. Cuenta con una
-                    trayectoria sostenida en exposiciones, salones y concursos
-                    nacionales, con premios y reconocimientos obtenidos.
+                    {t('home.bio')}
                   </p>
                   <Link
                     to='/contact'
                     className='inline-flex items-center gap-2 mt-12 text-sm uppercase tracking-[0.2em] text-muted-foreground hover:text-foreground transition-colors'
                   >
-                    Contacto
+                    {t('home.contact')}
                     <ArrowRight size={14} />
                   </Link>
                 </div>
               </CarouselItem>
 
-              {/* Slides de imágenes desde carrusel.json */}
-              {carouselItems.slice(0, 4).map(slide => (
-                <CarouselItem key={slide.id}>
-                  <div className='relative min-h-[400px] md:min-h-[500px] overflow-hidden bg-card'>
-                    <img
-                      src={slide.imageUrl}
-                      alt={slide.caption || ''}
-                      className='w-full h-full object-contain absolute inset-0'
-                      loading='lazy'
-                    />
-                    {slide.caption && (
-                      <div className='absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/60 to-transparent'>
-                        <p className='text-white font-display text-lg'>
-                          {slide.caption}
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                </CarouselItem>
-              ))}
+              {/* Slides de imágenes */}
+              {carouselItems.slice(0, 4).map((slide) => {
+                const caption = isEN && slide.caption_en ? slide.caption_en : slide.caption
+                return (
+                  <CarouselItem key={slide.id}>
+                    <div className='relative min-h-[400px] md:min-h-[500px] overflow-hidden bg-card'>
+                      <img
+                        src={slide.imageUrl}
+                        alt={caption || ''}
+                        className='w-full h-full object-contain absolute inset-0'
+                        loading='lazy'
+                      />
+                      {caption && (
+                        <div className='absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/60 to-transparent'>
+                          <p className='text-white font-display text-lg'>{caption}</p>
+                        </div>
+                      )}
+                    </div>
+                  </CarouselItem>
+                )
+              })}
             </CarouselContent>
-
             <CarouselPrevious className='left-4' />
             <CarouselNext className='right-4' />
           </Carousel>
@@ -115,12 +114,9 @@ const Index = () => {
       <section className='py-24'>
         <div className='container mx-auto px-6'>
           <div className='flex items-end justify-between mb-12'>
-            <h2 className='section-title mb-0'>Obras Destacadas</h2>
-            <Link
-              to='/portfolio'
-              className='nav-link hidden md:flex items-center gap-2'
-            >
-              Ver todo
+            <h2 className='section-title mb-0'>{t('home.featured')}</h2>
+            <Link to='/portfolio' className='nav-link hidden md:flex items-center gap-2'>
+              {t('home.seeAll')}
               <ArrowRight size={14} />
             </Link>
           </div>
@@ -143,11 +139,8 @@ const Index = () => {
           </div>
 
           <div className='mt-8 text-center md:hidden'>
-            <Link
-              to='/portfolio'
-              className='nav-link inline-flex items-center gap-2'
-            >
-              Ver todo
+            <Link to='/portfolio' className='nav-link inline-flex items-center gap-2'>
+              {t('home.seeAll')}
               <ArrowRight size={14} />
             </Link>
           </div>

@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "portfolio": "Portfolio",
+    "exhibitions": "Exposiciones",
+    "prints": "A la venta",
+    "press": "Prensa",
+    "contact": "Contacto"
+  },
+  "home": {
+    "subtitle": "Artista visual explorando los límites entre abstracción y emoción",
+    "cta": "Ver Portfolio",
+    "bio": "Artista plástico argentino, marplatense y docente orientado al realismo contemporáneo, con una obra de fuerte carga simbólica, psicológica y social. Su producción se sustenta en el dominio de técnicas clásicas de la pintura al óleo, aplicadas a una mirada narrativa y actual. Cuenta con una trayectoria sostenida en exposiciones, salones y concursos nacionales, con premios y reconocimientos obtenidos.",
+    "contact": "Contacto",
+    "featured": "Obras Destacadas",
+    "seeAll": "Ver todo"
+  },
+  "exhibitions": {
+    "title": "Exposiciones",
+    "solo": "Exposiciones individuales"
+  },
+  "prints": {
+    "title": "A la venta",
+    "subtitle": "Ediciones limitadas de alta calidad, impresas en papel fine art con tintas de archivo. Cada print está firmado y numerado.",
+    "soldOut": "Agotado",
+    "interestedTitle": "¿Interesado en un print?",
+    "interestedText": "Contactame para consultas sobre disponibilidad, encargos especiales o información de envío.",
+    "contact": "Contactar",
+    "whatsapp": "Consultar por WhatsApp"
+  },
+  "press": {
+    "title": "Prensa",
+    "readArticle": "Leer artículo",
+    "inquiries": "Para consultas de prensa, contactar:"
+  },
+  "contact": {
+    "title": "Contacto",
+    "representation": "Representación",
+    "representationText": "Galería Arte Contemporáneo\nAv. Alvear 1234, Recoleta\nBuenos Aires, Argentina",
+    "footer": "Para consultas sobre obras, comisiones o colaboraciones,\nno dudes en contactarme."
+  }
+}

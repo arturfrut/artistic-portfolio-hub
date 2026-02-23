@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "portfolio": "Portfolio",
+    "exhibitions": "Exhibitions",
+    "prints": "On sale",
+    "press": "Press",
+    "contact": "Contact"
+  },
+  "home": {
+    "subtitle": "Visual artist exploring the boundaries between abstraction and emotion",
+    "cta": "View Portfolio",
+    "bio": "Argentine visual artist and educator from Mar del Plata, focused on contemporary realism, with works of strong symbolic, psychological and social content. His production is grounded in the mastery of classical oil painting techniques, applied to a narrative and current perspective. He has a sustained career in exhibitions, salons and national competitions, with prizes and recognitions obtained.",
+    "contact": "Contact",
+    "featured": "Featured Works",
+    "seeAll": "See all"
+  },
+  "exhibitions": {
+    "title": "Exhibitions",
+    "solo": "Solo Exhibitions"
+  },
+  "prints": {
+    "title": "On sale",
+    "subtitle": "High quality limited editions, printed on fine art paper with archival inks. Each print is signed and numbered.",
+    "soldOut": "Sold out",
+    "interestedTitle": "Interested in a print?",
+    "interestedText": "Contact me for inquiries about availability, special orders or shipping information.",
+    "contact": "Contact",
+    "whatsapp": "Inquire via WhatsApp"
+  },
+  "press": {
+    "title": "Press",
+    "readArticle": "Read article",
+    "inquiries": "For press inquiries, contact:"
+  },
+  "contact": {
+    "title": "Contact",
+    "representation": "Representation",
+    "representationText": "Galería Arte Contemporáneo\nAv. Alvear 1234, Recoleta\nBuenos Aires, Argentina",
+    "footer": "For inquiries about artworks, commissions or collaborations,\nfeel free to contact me."
+  }
+}
