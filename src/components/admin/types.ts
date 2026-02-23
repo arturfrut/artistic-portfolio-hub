@@ -40,5 +40,10 @@ export interface PressItem extends BaseItem {
   link?: string;
 }
 
-export type ContentType = 'obras' | 'exposiciones' | 'prints' | 'prensa';
-export type AnyItem = Obra | Exposicion | Print | PressItem;
+export interface CarouselItem extends BaseItem {
+  imageUrl: string;
+  caption?: string;
+}
+
+export type ContentType = 'obras' | 'exposiciones' | 'prints' | 'prensa' | 'carrusel';
+export type AnyItem = Obra | Exposicion | Print | PressItem | CarouselItem;

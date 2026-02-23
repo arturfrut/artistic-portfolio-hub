@@ -5,6 +5,7 @@ export const FILE_PATHS: Record<ContentType, string> = {
   exposiciones: 'public/data/exposiciones.json',
   prints: 'public/data/prints.json',
   prensa: 'public/data/prensa.json',
+  carrusel: 'public/data/carrusel.json',
 };
 
 export const JSON_KEYS: Record<ContentType, string> = {
@@ -12,6 +13,7 @@ export const JSON_KEYS: Record<ContentType, string> = {
   exposiciones: 'exposiciones',
   prints: 'prints',
   prensa: 'prensa',
+  carrusel: 'carrusel',
 };
 
 export const TAB_LABELS: Record<ContentType, string> = {
@@ -19,6 +21,7 @@ export const TAB_LABELS: Record<ContentType, string> = {
   exposiciones: 'Exposiciones',
   prints: 'Prints',
   prensa: 'Prensa',
+  carrusel: 'Carrusel Inicio',
 };
 
 export const STORAGE_KEY = 'portfolio_admin_enc';
