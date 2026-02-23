@@ -7,6 +7,15 @@
       "gallery": [],
       "published": true,
       "caption": ""
+    },
+    {
+      "id": "1771887041528",
+      "title": "Banner 1",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771887024/qxitclkknav1dlmdasfu.jpg",
+      "gallery": [],
+      "published": true,
+      "caption": "",
+      "caption_en": ""
     }
   ]
 }
