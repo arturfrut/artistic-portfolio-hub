@@ -7,7 +7,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious,
+  CarouselPrevious
 } from '@/components/ui/carousel'
 import type { GalleryItem } from '@/components/gallery/GalleryGrid'
 
@@ -59,22 +59,19 @@ const Index = () => {
       {/* Bio + Carousel Section */}
       <section className='py-24 bg-card'>
         <div className='container mx-auto px-6'>
-          <Carousel
-            opts={{ align: 'start', loop: true }}
-            className='w-full'
-          >
+          <Carousel opts={{ align: 'start', loop: true }} className='w-full'>
             <CarouselContent>
               {/* Slide de texto — siempre primero */}
               <CarouselItem>
                 <div className='flex flex-col items-center justify-center min-h-[400px] md:min-h-[500px] px-4 md:px-16 text-center'>
                   <p className='font-display text-2xl md:text-3xl font-light leading-relaxed'>
-                    Artista plástico argentino, marplatense y docente orientado al
-                    realismo contemporáneo, con una obra de fuerte carga simbólica,
-                    psicológica y social. Su producción se sustenta en el dominio de
-                    técnicas clásicas de la pintura al óleo, aplicadas a una mirada
-                    narrativa y actual. Cuenta con una trayectoria sostenida en
-                    exposiciones, salones y concursos nacionales, con premios y
-                    reconocimientos obtenidos.
+                    Artista plástico argentino, marplatense y docente orientado
+                    al realismo contemporáneo, con una obra de fuerte carga
+                    simbólica, psicológica y social. Su producción se sustenta
+                    en el dominio de técnicas clásicas de la pintura al óleo,
+                    aplicadas a una mirada narrativa y actual. Cuenta con una
+                    trayectoria sostenida en exposiciones, salones y concursos
+                    nacionales, con premios y reconocimientos obtenidos.
                   </p>
                   <Link
                     to='/contact'
@@ -87,18 +84,20 @@ const Index = () => {
               </CarouselItem>
 
               {/* Slides de imágenes desde carrusel.json */}
-              {carouselItems.slice(0, 4).map((slide) => (
+              {carouselItems.slice(0, 4).map(slide => (
                 <CarouselItem key={slide.id}>
-                  <div className='relative min-h-[400px] md:min-h-[500px] overflow-hidden'>
+                  <div className='relative min-h-[400px] md:min-h-[500px] overflow-hidden bg-card'>
                     <img
                       src={slide.imageUrl}
                       alt={slide.caption || ''}
-                      className='w-full h-full object-cover absolute inset-0'
+                      className='w-full h-full object-contain absolute inset-0'
                       loading='lazy'
                     />
                     {slide.caption && (
                       <div className='absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/60 to-transparent'>
-                        <p className='text-white font-display text-lg'>{slide.caption}</p>
+                        <p className='text-white font-display text-lg'>
+                          {slide.caption}
+                        </p>
                       </div>
                     )}
                   </div>
