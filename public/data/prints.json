@@ -4,10 +4,6 @@
       "id": "1",
       "title": "Fragmentos I",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/artwork-1_zh3kem.jpg",
-      "edition": "Edición limitada de 50",
-      "size": "60 x 40 cm",
-      "price": "$350",
-      "available": true,
       "gallery": [
         {
           "type": "image",
@@ -21,7 +17,13 @@
           "type": "image",
           "image": "images/artwork-3.jpg"
         }
-      ]
+      ],
+      "published": true,
+      "edition": "Edición limitada de 50",
+      "size": "60 x 40 cm",
+      "price": "$350 ARS",
+      "available": true,
+      "description": "Descripci�n de prueba"
     },
     {
       "id": "2",
