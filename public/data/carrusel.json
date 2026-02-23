@@ -1,3 +1,12 @@
 {
-  "carrusel": []
+  "carrusel": [
+    {
+      "id": "1771875630983",
+      "title": "Perspectiva",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771875623/j1yqdgzklrf6ghiilmog.jpg",
+      "gallery": [],
+      "published": true,
+      "caption": ""
+    }
+  ]
 }
