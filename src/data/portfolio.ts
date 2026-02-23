@@ -24,6 +24,7 @@ export interface Print {
   size: string;
   price?: string;
   available: boolean;
+  description?: string;
   gallery?: GalleryMedia[];
 }
 

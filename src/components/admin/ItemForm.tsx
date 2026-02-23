@@ -6,11 +6,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { uploadImageToCloudinary } from '@/lib/cloudinaryUpload'
 import { GalleryManager } from './GalleryManager'
 import { cloudinaryThumb } from './utils'
-import {
-  AnyItem,
-  ContentType,
-  GalleryMedia,
-} from './types'
+import { AnyItem, ContentType, GalleryMedia } from './types'
 
 // ─── Form defaults ────────────────────────────────────────────────────────────
 
@@ -50,6 +46,7 @@ function defaultForm(
         priceAmount,
         priceCurrency,
         available: true,
+        description: '',
         ...existing
       }
     }
@@ -292,6 +289,12 @@ export function ItemForm({
             </p>
           </div>
           {field('Disponible', 'available', '', 'checkbox')}
+          {field(
+            'Descripción',
+            'description',
+            'Descripción del print...',
+            'textarea'
+          )}
         </>
       )}
 

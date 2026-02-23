@@ -31,6 +31,7 @@ export interface Print extends BaseItem {
   size: string;
   price?: string;
   available: boolean;
+  description?: string;
 }
 
 export interface PressItem extends BaseItem {
