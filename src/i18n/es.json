@@ -7,7 +7,7 @@
     "contact": "Contacto"
   },
   "home": {
-    "subtitle": "Artista visual explorando los límites entre abstracción y emoción",
+    "subtitle": "Realismo simbólico con mirada social crítica y profundidad onírica",
     "cta": "Ver Portfolio",
     "bio": "Artista plástico argentino, marplatense y docente orientado al realismo contemporáneo, con una obra de fuerte carga simbólica, psicológica y social. Su producción se sustenta en el dominio de técnicas clásicas de la pintura al óleo, aplicadas a una mirada narrativa y actual. Cuenta con una trayectoria sostenida en exposiciones, salones y concursos nacionales, con premios y reconocimientos obtenidos.",
     "contact": "Contacto",
@@ -16,11 +16,11 @@
   },
   "exhibitions": {
     "title": "Exposiciones",
-    "solo": "Exposiciones individuales"
+    "solo": "Muestras y participaciones"
   },
   "prints": {
     "title": "A la venta",
-    "subtitle": "Ediciones limitadas de alta calidad, impresas en papel fine art con tintas de archivo. Cada print está firmado y numerado.",
+    "subtitle": "Obras originales en óleo sobre lienzo y papel, trabajadas con capas y veladuras que construyen profundidad, atmósfera y tensión narrativa. Cada pintura es una pieza única.",
     "soldOut": "Agotado",
     "interestedTitle": "¿Interesado en un print?",
     "interestedText": "Contactame para consultas sobre disponibilidad, encargos especiales o información de envío.",
@@ -30,7 +30,7 @@
   "press": {
     "title": "Prensa",
     "readArticle": "Leer artículo",
-    "inquiries": "Para consultas de prensa, contactar:"
+    "inquiries": "Para consultas de prensa, contactar: ignaciocrevecoeur@gmail.com "
   },
   "contact": {
     "title": "Contacto",

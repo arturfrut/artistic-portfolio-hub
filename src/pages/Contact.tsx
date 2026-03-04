@@ -1,67 +1,55 @@
-import { Layout } from "@/components/layout/Layout";
-import { Instagram, Mail, MapPin } from "lucide-react";
-import { useTranslation } from "react-i18next";
+import { Layout } from '@/components/layout/Layout'
+import { Instagram, Mail, MapPin } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Layout>
-      <section className="py-12 min-h-[70vh] flex items-center">
-        <div className="container mx-auto px-6">
-          <div className="max-w-2xl mx-auto text-center">
-            <h1 className="section-title opacity-0 animate-fade-in-up">
+      <section className='py-12 min-h-[70vh] flex items-center'>
+        <div className='container mx-auto px-6'>
+          <div className='max-w-2xl mx-auto text-center'>
+            <h1 className='section-title opacity-0 animate-fade-in-up'>
               {t('contact.title')}
             </h1>
 
-            <div className="space-y-8 opacity-0 animate-fade-in-up stagger-1">
-              <div className="flex items-center justify-center gap-3">
-                <Mail className="text-primary" size={20} />
+            <div className='space-y-8 opacity-0 animate-fade-in-up stagger-1'>
+              <div className='flex items-center justify-center gap-3'>
+                <Mail className='text-primary' size={20} />
                 <a
-                  href="mailto:contact@ignaciocevecoeur.com"
-                  className="text-lg hover:text-primary transition-colors"
+                  href='mailto:ignaciocrevecoeur@gmail.com'
+                  className='text-lg hover:text-primary transition-colors'
                 >
-                  contact@ignaciocevecoeur.com
+                  ignaciocrevecoeur@gmail.com
                 </a>
               </div>
 
-              <div className="flex items-center justify-center gap-3">
-                <Instagram className="text-secondary" size={20} />
+              <div className='flex items-center justify-center gap-3'>
+                <Instagram className='text-secondary' size={20} />
                 <a
-                  href="https://instagram.com/ignaciocevecoeur"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-lg hover:text-secondary transition-colors"
+                  href='https://instagram.com/ignaciocevecoeur'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-lg hover:text-secondary transition-colors'
                 >
                   @ignaciocevecoeur
                 </a>
               </div>
 
-              <div className="flex items-center justify-center gap-3 text-muted-foreground">
+              <div className='flex items-center justify-center gap-3 text-muted-foreground'>
                 <MapPin size={20} />
-                <span className="text-lg">Buenos Aires, Argentina</span>
+                <span className='text-lg'>
+                  Mar del plata, Buenos Aires, Argentina
+                </span>
               </div>
             </div>
 
-            <div className="mt-16 pt-12 border-t border-border opacity-0 animate-fade-in-up stagger-2">
-              <h2 className="font-display text-2xl mb-6">
-                {t('contact.representation')}
-              </h2>
-              <p className="text-muted-foreground whitespace-pre-line">
-                {t('contact.representationText')}
-              </p>
-            </div>
-
-            <div className="mt-12 opacity-0 animate-fade-in-up stagger-3">
-              <p className="text-sm text-muted-foreground whitespace-pre-line">
-                {t('contact.footer')}
-              </p>
-            </div>
           </div>
         </div>
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

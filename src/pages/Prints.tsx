@@ -65,7 +65,7 @@ const Prints = () => {
             <h3 className="font-display text-2xl mb-4">{t('prints.interestedTitle')}</h3>
             <p className="text-muted-foreground mb-6">{t('prints.interestedText')}</p>
             <a
-              href="mailto:contact@ignaciocevecoeur.com"
+              href="mailto:ignaciocrevecoeur@gmail.com"
               className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] border border-primary text-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               {t('prints.contact')}

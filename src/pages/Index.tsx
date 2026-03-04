@@ -8,7 +8,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious,
+  CarouselPrevious
 } from '@/components/ui/carousel'
 import type { GalleryItem } from '@/components/gallery/GalleryGrid'
 
@@ -83,8 +83,9 @@ const Index = () => {
               </CarouselItem>
 
               {/* Slides de imágenes */}
-              {carouselItems.slice(0, 4).map((slide) => {
-                const caption = isEN && slide.caption_en ? slide.caption_en : slide.caption
+              {carouselItems.slice(0, 4).map(slide => {
+                const caption =
+                  isEN && slide.caption_en ? slide.caption_en : slide.caption
                 return (
                   <CarouselItem key={slide.id}>
                     <div className='relative min-h-[400px] md:min-h-[500px] overflow-hidden bg-card'>
@@ -96,7 +97,9 @@ const Index = () => {
                       />
                       {caption && (
                         <div className='absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/60 to-transparent'>
-                          <p className='text-white font-display text-lg'>{caption}</p>
+                          <p className='text-white font-display text-lg'>
+                            {caption}
+                          </p>
                         </div>
                       )}
                     </div>
@@ -104,8 +107,8 @@ const Index = () => {
                 )
               })}
             </CarouselContent>
-            <CarouselPrevious className='left-4' />
-            <CarouselNext className='right-4' />
+            <CarouselPrevious className='left-0 md:left-4' />
+            <CarouselNext className='right-0 md:right-4' />
           </Carousel>
         </div>
       </section>
@@ -115,7 +118,10 @@ const Index = () => {
         <div className='container mx-auto px-6'>
           <div className='flex items-end justify-between mb-12'>
             <h2 className='section-title mb-0'>{t('home.featured')}</h2>
-            <Link to='/portfolio' className='nav-link hidden md:flex items-center gap-2'>
+            <Link
+              to='/portfolio'
+              className='nav-link hidden md:flex items-center gap-2'
+            >
               {t('home.seeAll')}
               <ArrowRight size={14} />
             </Link>
@@ -139,7 +145,10 @@ const Index = () => {
           </div>
 
           <div className='mt-8 text-center md:hidden'>
-            <Link to='/portfolio' className='nav-link inline-flex items-center gap-2'>
+            <Link
+              to='/portfolio'
+              className='nav-link inline-flex items-center gap-2'
+            >
               {t('home.seeAll')}
               <ArrowRight size={14} />
             </Link>

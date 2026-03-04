@@ -11,7 +11,7 @@ export function Footer() {
           
           <div className="flex items-center gap-6">
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/ignaciocevecoeur"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -20,7 +20,7 @@ export function Footer() {
               <Instagram size={20} />
             </a>
             <a
-              href="mailto:contact@ignaciocevecoeur.com"
+              href="mailto:ignaciocrevecoeur@gmail.com"
               className="text-muted-foreground hover:text-secondary transition-colors duration-300"
               aria-label="Email"
             >

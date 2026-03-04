@@ -6,10 +6,10 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
+    --background: 0 0% 11%;
     --foreground: 0 0% 98%;
 
-    --card: 0 0% 5%;
+    --card: 0 0% 9%;
     --card-foreground: 0 0% 98%;
 
     --popover: 0 0% 5%;
@@ -39,10 +39,14 @@
     /* Custom tokens */
     --font-display: 'Cormorant Garamond', serif;
     --font-body: 'Inter', sans-serif;
-    
-    --gradient-primary: linear-gradient(135deg, hsl(322 100% 55%), hsl(190 100% 55%));
+
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(322 100% 55%),
+      hsl(190 100% 55%)
+    );
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 0%), hsl(0 0% 5%));
-    
+
     --shadow-glow-primary: 0 0 40px hsl(322 100% 55% / 0.3);
     --shadow-glow-secondary: 0 0 40px hsl(190 100% 55% / 0.3);
   }
@@ -80,7 +84,12 @@
     font-family: var(--font-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-display);
     @apply font-light tracking-wide;
   }
@@ -90,24 +99,24 @@
   .nav-link {
     @apply relative text-sm uppercase tracking-[0.2em] text-muted-foreground transition-colors duration-300;
   }
-  
+
   .nav-link:hover {
     @apply text-foreground;
   }
-  
+
   .nav-link::after {
     content: '';
     @apply absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300;
   }
-  
+
   .nav-link:hover::after {
     @apply w-full;
   }
-  
+
   .nav-link.active {
     @apply text-foreground;
   }
-  
+
   .nav-link.active::after {
     @apply w-full bg-primary;
   }
@@ -115,20 +124,20 @@
   .gallery-item {
     @apply relative overflow-hidden cursor-pointer;
   }
-  
+
   .gallery-item img {
     @apply w-full h-full object-cover transition-transform duration-700 ease-out;
   }
-  
+
   .gallery-item:hover img {
     @apply scale-105;
   }
-  
+
   .gallery-item::before {
     content: '';
     @apply absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 z-10;
   }
-  
+
   .gallery-item:hover::before {
     @apply opacity-100;
   }
@@ -161,18 +170,28 @@
     animation: fadeInUp 0.8s ease-out forwards;
   }
 
-  .stagger-1 { animation-delay: 0.1s; }
-  .stagger-2 { animation-delay: 0.2s; }
-  .stagger-3 { animation-delay: 0.3s; }
-  .stagger-4 { animation-delay: 0.4s; }
-  .stagger-5 { animation-delay: 0.5s; }
+  .stagger-1 {
+    animation-delay: 0.1s;
+  }
+  .stagger-2 {
+    animation-delay: 0.2s;
+  }
+  .stagger-3 {
+    animation-delay: 0.3s;
+  }
+  .stagger-4 {
+    animation-delay: 0.4s;
+  }
+  .stagger-5 {
+    animation-delay: 0.5s;
+  }
 }
 
 @layer utilities {
   .font-display {
     font-family: var(--font-display);
   }
-  
+
   .font-body {
     font-family: var(--font-body);
   }
