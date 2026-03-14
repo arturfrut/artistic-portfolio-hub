@@ -2,7 +2,7 @@
   "obras": [
     {
       "id": "1",
-      "title": "Laumë Thorelai — Guardiana de los Sueños del Bosque",
+      "title": "LaumÃ« Thorelai â€” Guardiana de los SueÃ±os del Bosque",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771420989/esy013ywsprhof4l9jie.jpg",
       "gallery": [
         {
@@ -21,7 +21,7 @@
     },
     {
       "id": "2",
-      "title": "Arqueología del presente",
+      "title": "ArqueologÃ­a del presente",
       "year": "2025",
       "medium": "Oleo sobre lienzo",
       "dimensions": "96 x 100 cm",
@@ -36,6 +36,14 @@
           "image": "images/whatsapp-image-2026-02-02-at-13.25.52.jpeg"
         }
       ]
+    },
+    {
+      "id": "3",
+      "title": "EpifanÃ­a en la penumbra",
+      "year": "2023",
+      "medium": "Oleo sobre lienzo",
+      "dimensions": "90 x 100 cm",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/monstruo_exiymk.jpg"
     },
     {
       "id": "5",
@@ -54,14 +62,6 @@
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070133/concurso-6_vsnkph.jpg"
         }
       ]
-    },
-    {
-      "id": "3",
-      "title": "Epifanía en la penumbra",
-      "year": "2023",
-      "medium": "Oleo sobre lienzo",
-      "dimensions": "90 x 100 cm",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/monstruo_exiymk.jpg"
     },
     {
       "id": "4",
@@ -122,7 +122,7 @@
       "gallery": [],
       "published": true,
       "year": "2025",
-      "medium": "�leo sobre lienzo",
+      "medium": "Óleo sobre lienzo",
       "dimensions": "90 x 120"
     }
   ]
