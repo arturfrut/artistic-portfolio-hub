@@ -28,12 +28,12 @@ const Contact = () => {
               <div className='flex items-center justify-center gap-3'>
                 <Instagram className='text-secondary' size={20} />
                 <a
-                  href='https://instagram.com/ignaciocevecoeur'
+                  href='https://instagram.com/ignaciocrevecoeur'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='text-lg hover:text-secondary transition-colors'
                 >
-                  @ignaciocevecoeur
+                  @ignaciocrevecoeur
                 </a>
               </div>
 

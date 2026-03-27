@@ -73,10 +73,10 @@ const Press = () => {
             <p className="text-muted-foreground">
               {t('press.inquiries')}{" "}
               <a
-                href="mailto:press@ignaciocevecoeur.com"
+                href="mailto:press@ignaciocrevecoeur.com"
                 className="text-secondary hover:text-foreground transition-colors"
               >
-                press@ignaciocevecoeur.com
+                press@ignaciocrevecoeur.com
               </a>
             </p>
           </div>

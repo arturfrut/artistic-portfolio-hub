@@ -274,7 +274,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
 
                 {item.available && (
                   <a
-                    href={`https://wa.me/5491234567890?text=${encodeURIComponent(`Hola, me interesa el print: ${item.title}`)}`}
+                    href={`https://wa.me/5492235479406?text=${encodeURIComponent(`Hola, me interesa el print: ${item.title}`)}`}
                     target='_blank'
                     rel='noopener noreferrer'
                     className='inline-flex items-center justify-center gap-2 text-sm uppercase tracking-[0.15em] border border-primary text-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-300'

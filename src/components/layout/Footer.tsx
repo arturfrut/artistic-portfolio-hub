@@ -11,7 +11,7 @@ export function Footer() {
           
           <div className="flex items-center gap-6">
             <a
-              href="https://instagram.com/ignaciocevecoeur"
+              href="https://instagram.com/ignaciocrevecoeur"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
