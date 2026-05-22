@@ -29,12 +29,42 @@
     },
     {
       "id": "2",
-      "title": "La Danza",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg",
-      "edition": "EdiciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n limitada de 30",
-      "size": "80 x 60 cm",
-      "price": "$500",
-      "available": true
+      "title": "\"Guardianes de los Sueños del Bosque\"",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779413966/uzdoq0klucyytwbqd8w7.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779414184/s0omsfinifjesqfrlisx.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779414193/hr7st4rpyq6c7k4qigxg.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779414216/dlkhmdyepjhjhjznsdpl.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779414227/wfmc9cb2mqsdhhbmdhse.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779414241/ahekngixggvdgsfxb9gg.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779414253/ttd7t8v2gffvjaceehib.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "limitada",
+      "edition_en": "Limited Edition",
+      "size": "90x100cm",
+      "price": "$900 USD",
+      "available": true,
+      "description": "Guardianes de los Sueños del Bosque\nUna escena mística donde la fantasía y la naturaleza se fusionan en un mundo onírico habitado por criaturas míticas, búhos, hongos y espíritus ocultos. A través de una atmósfera intensa y cargada de simbolismo, la obra explora la conexión entre el ser humano, el instinto y la belleza salvaje que aún persiste en la naturaleza.",
+      "description_en": "Guardian of the Forest Dreams\nA mystical forest scene where fantasy and nature merge into a dreamlike world inhabited by mythical creatures, owls, mushrooms, and hidden spirits. Through rich symbolism and vibrant detail, the painting explores the connection between humanity, instinct, and the wild beauty that still survives within nature."
     },
     {
       "id": "3",
