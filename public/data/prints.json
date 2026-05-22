@@ -2,34 +2,36 @@
   "prints": [
     {
       "id": "1",
-      "title": "Fragmentos I",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/artwork-1_zh3kem.jpg",
+      "title": "\"lunes argento\"",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779411769/ksxrmxcqn8zezhgjfz54.jpg",
       "gallery": [
         {
           "type": "image",
-          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg"
-        },
-        {
-          "type": "video",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779411904/faekcih6ljylfrmxqgiv.jpg"
         },
         {
           "type": "image",
-          "image": "images/artwork-3.jpg"
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779411909/e0zrrjzc4xnlujcqzczi.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779411917/f4vzsgedv50tnecby3hp.jpg"
         }
       ],
       "published": true,
-      "edition": "EdiciÃ³n limitada de 50",
-      "size": "60 x 40 cm",
-      "price": "$350 ARS",
+      "edition": "unica",
+      "edition_en": "limited",
+      "size": "100x90",
+      "price": "$800 USD",
       "available": true,
-      "description": "Descripción de prueba"
+      "description": "Una escena distópica y satírica donde un carpincho avanza entre ruinas cargando a un personaje desbordado entre euforia y desesperación. La obra mezcla símbolos argentinos, caos urbano y un clima onírico para reflexionar sobre la fragilidad social, la identidad y la supervivencia en tiempos de crisis.",
+      "description_en": "Argentine Monday\nA dystopian and satirical scene where a capybara moves through ruins carrying a character overwhelmed by both euphoria and despair. The painting blends Argentine symbolism, urban chaos, and a dreamlike atmosphere to reflect on social fragility, identity, and survival in times of crisis."
     },
     {
       "id": "2",
       "title": "La Danza",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg",
-      "edition": "EdiciÃ³n limitada de 30",
+      "edition": "EdiciÃƒÂ³n limitada de 30",
       "size": "80 x 60 cm",
       "price": "$500",
       "available": true
@@ -38,7 +40,7 @@
       "id": "3",
       "title": "Ecos",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg",
-      "edition": "EdiciÃ³n limitada de 50",
+      "edition": "EdiciÃƒÂ³n limitada de 50",
       "size": "50 x 40 cm",
       "price": "$280",
       "available": false
