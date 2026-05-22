@@ -24,12 +24,12 @@
       "size": "100x90",
       "price": "$800 USD",
       "available": true,
-      "description": "Una escena distÃ³pica y satÃ­rica donde un carpincho avanza entre ruinas cargando a un personaje desbordado entre euforia y desesperaciÃ³n. La obra mezcla sÃ­mbolos argentinos, caos urbano y un clima onÃ­rico para reflexionar sobre la fragilidad social, la identidad y la supervivencia en tiempos de crisis.",
+      "description": "Una escena distÃƒÂ³pica y satÃƒÂ­rica donde un carpincho avanza entre ruinas cargando a un personaje desbordado entre euforia y desesperaciÃƒÂ³n. La obra mezcla sÃƒÂ­mbolos argentinos, caos urbano y un clima onÃƒÂ­rico para reflexionar sobre la fragilidad social, la identidad y la supervivencia en tiempos de crisis.",
       "description_en": "Argentine Monday\nA dystopian and satirical scene where a capybara moves through ruins carrying a character overwhelmed by both euphoria and despair. The painting blends Argentine symbolism, urban chaos, and a dreamlike atmosphere to reflect on social fragility, identity, and survival in times of crisis."
     },
     {
       "id": "2",
-      "title": "\"Guardianes de los SueÃ±os del Bosque\"",
+      "title": "\"Guardianes de los SueÃƒÂ±os del Bosque\"",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779413966/uzdoq0klucyytwbqd8w7.jpg",
       "gallery": [
         {
@@ -63,17 +63,39 @@
       "size": "90x100cm",
       "price": "$900 USD",
       "available": true,
-      "description": "Guardianes de los Sue�os del Bosque\nUna escena m�stica donde la fantas�a y la naturaleza se fusionan en un mundo on�rico habitado por criaturas m�ticas, b�hos, hongos y esp�ritus ocultos. A trav�s de una atm�sfera intensa y cargada de simbolismo, la obra explora la conexi�n entre el ser humano, el instinto y la belleza salvaje que a�n persiste en la naturaleza.",
+      "description": "Guardianes de los Sueños del Bosque\nUna escena mística donde la fantasía y la naturaleza se fusionan en un mundo onírico habitado por criaturas míticas, búhos, hongos y espíritus ocultos. A través de una atmósfera intensa y cargada de simbolismo, la obra explora la conexión entre el ser humano, el instinto y la belleza salvaje que aún persiste en la naturaleza.",
       "description_en": "Guardian of the Forest Dreams\nA mystical forest scene where fantasy and nature merge into a dreamlike world inhabited by mythical creatures, owls, mushrooms, and hidden spirits. Through rich symbolism and vibrant detail, the painting explores the connection between humanity, instinct, and the wild beauty that still survives within nature."
     },
     {
       "id": "3",
-      "title": "Ecos",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg",
-      "edition": "EdiciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n limitada de 50",
+      "title": "\"La cena est� servida\"",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779415121/lbbv1gwfhka8fpiorzoz.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779415227/kntog4oygwqsgdjrofon.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779415232/i7zxdlpblcx7y7y5wmoy.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779415235/rlvkqg7gmkdtpannbuiq.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779415239/z0caoqiflnx8prtag4bt.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "limitada",
+      "edition_en": "",
       "size": "50 x 40 cm",
-      "price": "$280",
-      "available": false
+      "price": "$280 ARS",
+      "available": true,
+      "description": "Una escena oscura y simbolica donde lo cotidiano se mezcla con lo grotesco y lo onirico. Entre criaturas, restos, mascaras y figuras ambiguas, la obra construye un universo cargado de tension psicologica y metaforas sobre el consumo, la decadencia y los impulsos mas primitivos del ser humano. La iluminacion dramatica y la composicion barroca invitan al espectador a descubrir multiples relatos ocultos dentro de la imagen.",
+      "description_en": "Dinner Is Served\nA dark and symbolic scene where the ordinary merges with the grotesque and the dreamlike. Through creatures, remnants, masks, and ambiguous figures, the painting creates a universe charged with psychological tension and metaphors about consumption, decay, and humanity's most primal impulses. Its dramatic lighting and baroque composition invite the viewer to uncover multiple hidden narratives within the image."
     }
   ]
 }
