@@ -24,12 +24,12 @@
       "size": "100x90",
       "price": "$800 USD",
       "available": true,
-      "description": "Una escena distópica y satírica donde un carpincho avanza entre ruinas cargando a un personaje desbordado entre euforia y desesperación. La obra mezcla símbolos argentinos, caos urbano y un clima onírico para reflexionar sobre la fragilidad social, la identidad y la supervivencia en tiempos de crisis.",
+      "description": "Una escena distÃ³pica y satÃ­rica donde un carpincho avanza entre ruinas cargando a un personaje desbordado entre euforia y desesperaciÃ³n. La obra mezcla sÃ­mbolos argentinos, caos urbano y un clima onÃ­rico para reflexionar sobre la fragilidad social, la identidad y la supervivencia en tiempos de crisis.",
       "description_en": "Argentine Monday\nA dystopian and satirical scene where a capybara moves through ruins carrying a character overwhelmed by both euphoria and despair. The painting blends Argentine symbolism, urban chaos, and a dreamlike atmosphere to reflect on social fragility, identity, and survival in times of crisis."
     },
     {
       "id": "2",
-      "title": "\"Guardianes de los Sueños del Bosque\"",
+      "title": "\"Guardianes de los SueÃ±os del Bosque\"",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1779413966/uzdoq0klucyytwbqd8w7.jpg",
       "gallery": [
         {
@@ -70,7 +70,7 @@
       "id": "3",
       "title": "Ecos",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg",
-      "edition": "EdiciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n limitada de 50",
+      "edition": "EdiciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n limitada de 50",
       "size": "50 x 40 cm",
       "price": "$280",
       "available": false
