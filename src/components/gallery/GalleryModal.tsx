@@ -159,57 +159,55 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
 
   return (
     <div
-      className='fixed inset-0 z-50 flex items-center justify-center bg-background/95 backdrop-blur-sm animate-fade-in'
+      className='fixed inset-0 z-50 flex items-start justify-center bg-background/95 backdrop-blur-sm animate-fade-in overflow-y-auto'
       onClick={onClose}
     >
       <button
         onClick={onClose}
-        className='absolute top-6 right-6 text-muted-foreground hover:text-foreground transition-colors z-50'
+        className='fixed top-4 right-4 text-muted-foreground hover:text-foreground transition-colors z-50'
         aria-label='Close modal'
       >
-        <X size={32} />
+        <X size={28} />
       </button>
 
       <div
-        className='max-w-5xl max-h-[90vh] mx-6 flex flex-col gap-4 animate-fade-in-up'
+        className='w-full max-w-5xl mx-4 my-8 flex flex-col gap-4 animate-fade-in-up'
         onClick={e => e.stopPropagation()}
       >
-        <div className='flex flex-col md:flex-row gap-8'>
-          {/* Media display area with navigation arrows */}
-          <div className='flex-1 flex items-center justify-center relative'>
-            {/* Navigation arrows - only show if multiple media */}
+        <div className='flex flex-col md:flex-row gap-6 md:gap-8'>
+          {/* Media display area */}
+          <div className='flex-1 flex items-center justify-center relative min-h-0'>
             {hasMultipleMedia && (
               <>
                 <button
                   onClick={goToPrev}
-                  className='absolute left-4 top-1/2 -translate-y-1/2 z-30 bg-background/80 hover:bg-background text-foreground rounded-full p-3 transition-all hover:scale-110'
+                  className='absolute left-2 top-1/2 -translate-y-1/2 z-30 bg-background/80 hover:bg-background text-foreground rounded-full p-2 md:p-3 transition-all hover:scale-110'
                   aria-label='Previous'
                 >
-                  <ChevronLeft size={24} />
+                  <ChevronLeft size={20} />
                 </button>
                 <button
                   onClick={goToNext}
-                  className='absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-background/80 hover:bg-background text-foreground rounded-full p-3 transition-all hover:scale-110'
+                  className='absolute right-2 top-1/2 -translate-y-1/2 z-30 bg-background/80 hover:bg-background text-foreground rounded-full p-2 md:p-3 transition-all hover:scale-110'
                   aria-label='Next'
                 >
-                  <ChevronRight size={24} />
+                  <ChevronRight size={20} />
                 </button>
               </>
             )}
 
-            {/* Media content */}
             {isVideo ? (
               <iframe
                 src={getYouTubeEmbedUrl(currentMedia)}
                 title={item.title}
-                className='w-full aspect-video max-h-[65vh]'
+                className='w-full aspect-video'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                 allowFullScreen
               />
             ) : (
               <div
                 ref={containerRef}
-                className='relative overflow-hidden cursor-crosshair'
+                className='relative cursor-crosshair w-full'
                 onMouseMove={handleMouseMove}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
@@ -218,7 +216,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
                   ref={imageRef}
                   src={currentMedia}
                   alt={item.title}
-                  className='max-h-[65vh] w-auto object-contain transition-transform duration-200'
+                  className='w-full h-auto max-h-[55vh] md:max-h-[65vh] object-contain transition-transform duration-200'
                   style={{
                     transform: showZoom ? 'scale(1.4)' : 'scale(1)',
                     transformOrigin: `${mousePosition.x}px ${mousePosition.y}px`
@@ -227,9 +225,8 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
               </div>
             )}
           </div>
-
           {/* Item information */}
-          <div className='md:w-72 flex flex-col justify-end pb-8'>
+          <div className='md:w-72 flex flex-col justify-end pb-4 md:pb-8'>
             <h2 className='font-display text-3xl mb-4'>{item.title}</h2>
 
             {/* Artwork specific info */}
@@ -277,7 +274,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
                     href={`https://wa.me/5492235479406?text=${encodeURIComponent(`Hola, me interesa el print: ${item.title}`)}`}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='inline-flex items-center justify-center gap-2 text-sm uppercase tracking-[0.15em] border border-primary text-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-300'
+                    className='inline-flex items-center justify-center gap-2 text-sm uppercase tracking-[0.15em] border border-primary text-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-300 whitespace-nowrap mt-2'
                   >
                     Consultar por WhatsApp
                   </a>
@@ -306,7 +303,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
 
         {/* Thumbnails - only show if multiple media */}
         {hasMultipleMedia && (
-          <div className='flex gap-2 justify-center overflow-x-auto pb-2 px-4'>
+          <div className='flex gap-2 justify-start md:justify-center overflow-x-auto pb-2 px-0 pt-1'>
             {mediaArray.map((media, index) => {
               const isThumbVideo = isYouTubeUrl(media)
               const isActive = index === currentIndex
@@ -317,7 +314,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
                   onClick={() => goToIndex(index)}
                   className={`relative flex-shrink-0 w-20 h-20 rounded overflow-hidden border-2 transition-all ${
                     isActive
-                      ? 'border-primary scale-110'
+                      ? 'border-primary border-[3px]'
                       : 'border-border hover:border-muted-foreground'
                   }`}
                 >
