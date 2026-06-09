@@ -63,7 +63,7 @@
       "size": "90x100cm",
       "price": "$900 USD",
       "available": true,
-"description": "Una escena mística donde la fantasía y la naturaleza se fusionan en un mundo onírico habitado por criaturas míticas, búhos, hongos y espíritus ocultos. A través de una atmósfera intensa y cargada de simbolismo, la obra explora la conexión entre el ser humano, el instinto y la belleza salvaje que aún persiste en la naturaleza.",
+      "description": "Una escena mística donde la fantasía y la naturaleza se fusionan en un mundo onírico habitado por criaturas míticas, búhos, hongos y espíritus ocultos. A través de una atmósfera intensa y cargada de simbolismo, la obra explora la conexión entre el ser humano, el instinto y la belleza salvaje que aún persiste en la naturaleza.",
       "description_en": "Guardian of the Forest Dreams\nA mystical forest scene where fantasy and nature merge into a dreamlike world inhabited by mythical creatures, owls, mushrooms, and hidden spirits. Through rich symbolism and vibrant detail, the painting explores the connection between humanity, instinct, and the wild beauty that still survives within nature."
     },
     {
@@ -96,6 +96,53 @@
       "available": true,
       "description": "Una escena oscura y simbolica donde lo cotidiano se mezcla con lo grotesco y lo onirico. Entre criaturas, restos, mascaras y figuras ambiguas, la obra construye un universo cargado de tension psicologica y metaforas sobre el consumo, la decadencia y los impulsos mas primitivos del ser humano. La iluminacion dramatica y la composicion barroca invitan al espectador a descubrir multiples relatos ocultos dentro de la imagen.",
       "description_en": "Dinner Is Served\nA dark and symbolic scene where the ordinary merges with the grotesque and the dreamlike. Through creatures, remnants, masks, and ambiguous figures, the painting creates a universe charged with psychological tension and metaphors about consumption, decay, and humanity's most primal impulses. Its dramatic lighting and baroque composition invite the viewer to uncover multiple hidden narratives within the image."
+    },
+    {
+      "id": "1780973851522",
+      "title": "Cuando todo comenzó a hundirse",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973636/v4oh0orkpq71j2rnh1it.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973650/yzuy8vadtg7vdikfiydf.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973659/domrrt6uvw3js8t2n4qw.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973670/rbgvnozceewr1kmor5r2.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973681/jl7zgnsbhwqkfamhftc2.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973689/roua0kywdz4kyohlqpyg.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973700/umq9ml38mss7xppbxqwq.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973713/gonjunjkwrmlagz2xyhj.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1780973722/mf3pmr4z9avvlboia0bm.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "Limitada ",
+      "edition_en": "",
+      "size": "150 x 100cm",
+      "price": "$1200 USD",
+      "available": true,
+      "description": "Cuando todo comenzó a hundirse,\nno eligieron lo necesario.\nEligieron lo que no podían perder.\nCargaron imágenes, símbolos, recuerdos,\ncomo si en ellos todavía habitara algo de sentido.\nNo sabían si aquello los salvaría,\npero sí sabían que sin eso\nya no quedaba nada por salvar.",
+      "description_en": "When everything began to sink,\nthey did not choose what was necessary.\nThey chose what they could not afford to lose.\n\nThey carried images, symbols, memories,\nas if within them\nsome fragment of meaning still remained.\n\nThey did not know if those things would save them,\nbut they knew that without them,\nthere would be nothing left worth saving."
     }
   ]
 }
