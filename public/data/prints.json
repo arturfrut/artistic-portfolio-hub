@@ -143,6 +143,29 @@
       "available": true,
       "description": "Cuando todo comenzó a hundirse,\nno eligieron lo necesario.\nEligieron lo que no podían perder.\nCargaron imágenes, símbolos, recuerdos,\ncomo si en ellos todavía habitara algo de sentido.\nNo sabían si aquello los salvaría,\npero sí sabían que sin eso\nya no quedaba nada por salvar.",
       "description_en": "When everything began to sink,\nthey did not choose what was necessary.\nThey chose what they could not afford to lose.\n\nThey carried images, symbols, memories,\nas if within them\nsome fragment of meaning still remained.\n\nThey did not know if those things would save them,\nbut they knew that without them,\nthere would be nothing left worth saving."
+    },
+    {
+      "id": "1781276833275",
+      "title": "El encuentro",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1781276294/jhemxrpgkifouwf7kfvv.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1781276303/bxuirqmtb0hwsatmmgve.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1781276310/nslgekiykmo6wbs7vjez.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "Limitada",
+      "edition_en": "",
+      "size": "100x80cm",
+      "price": "$800 USD",
+      "available": true,
+      "description": "Durante años creyó que aquello que habitaba en el bosque era algo ajeno; una presencia que debía evitar, contener o dominar.\nPero al acercarse, comprendió que no existía una verdadera distancia entre ambos.\nNo era un otro, sino una parte olvidada de sí misma.\nY en ese instante sin palabras, sin miedo todo volvió a su lugar.",
+      "description_en": "For years, she believed that what lived within the forest was something foreign; a presence she had to avoid, contain, or control.\n\nBut as she drew closer, she understood that there was no true distance between them.\n\nIt was not another being, but a forgotten part of herself.\n\nAnd in that silent moment, without fear, everything found its place again."
     }
   ]
 }
