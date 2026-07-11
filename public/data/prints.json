@@ -197,6 +197,29 @@
       "available": true,
       "description": "Frente a la sombra del minotauro, la protagonista no huye. Su mirada firme refleja la decisión de seguir adelante, aun cuando el miedo parece imponerse. El libro abierto y el laberinto representan el conocimiento y el recorrido personal: un recordatorio de que toda amenaza puede enfrentarse cuando existe la voluntad de avanzar.",
       "description_en": "In front of the Minotaur's shadow, the protagonist does not run. Her unwavering gaze reflects the determination to move forward, even when fear seems overwhelming. The open book and the labyrinth symbolize knowledge and the personal journey a reminder that every threat can be faced when there is the courage to keep going."
+    },
+    {
+      "id": "1783799617287",
+      "title": "la vigilia",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783799448/amsxupejgtt55yolq8pl.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783799455/xtojbxkeshxaq8ykoqgh.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783799465/t8pr9recrxv89jvkj88r.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "edicion limitada",
+      "edition_en": "",
+      "size": "90x120cm",
+      "price": "$800 USD",
+      "available": true,
+      "description": "Una figura femenina reposa entre libros, un reloj de bolsillo y una botella vacía, rodeada por una atmósfera de calma e introspección. La escena invita a reflexionar sobre el paso del tiempo, la fragilidad de la belleza y la búsqueda del conocimiento. Cada objeto funciona como un símbolo de las experiencias que nos transforman, mientras la serenidad de la protagonista transmite la aceptación de ese viaje interior.",
+      "description_en": "A female figure rests among books, a pocket watch, and an empty bottle, surrounded by an atmosphere of calm and introspection. The scene invites reflection on the passage of time, the fragility of beauty, and the pursuit of knowledge. Each object serves as a symbol of the experiences that shape us, while the serenity of the protagonist conveys an acceptance of the inner journey."
     }
   ]
 }
