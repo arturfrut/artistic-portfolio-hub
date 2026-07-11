@@ -1,27 +1,6 @@
 {
   "exposiciones": [
     {
-      "id": "1",
-      "title": "Fragmentos del Alma",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070135/artwork-1_zh3kem.jpg",
-      "gallery": [
-        {
-          "type": "image",
-          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-2_juy9ti.jpg"
-        },
-        {
-          "type": "image",
-          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1771070137/artwork-3_byeww1.jpg"
-        }
-      ],
-      "published": true,
-      "venue": "Galería Arte Contemporáneo",
-      "location": "Buenos Aires, Argentina",
-      "date": "2024",
-      "description": "Una exploración de la identidad fragmentada a través del color y la forma.",
-      "type": "solo"
-    },
-    {
       "id": "2",
       "title": "Visiones Latinoamericanas",
       "venue": "Museo de Arte Moderno",
