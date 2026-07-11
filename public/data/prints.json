@@ -166,6 +166,37 @@
       "available": true,
       "description": "Durante años creyó que aquello que habitaba en el bosque era algo ajeno; una presencia que debía evitar, contener o dominar.\nPero al acercarse, comprendió que no existía una verdadera distancia entre ambos.\nNo era un otro, sino una parte olvidada de sí misma.\nY en ese instante sin palabras, sin miedo todo volvió a su lugar.",
       "description_en": "For years, she believed that what lived within the forest was something foreign; a presence she had to avoid, contain, or control.\n\nBut as she drew closer, she understood that there was no true distance between them.\n\nIt was not another being, but a forgotten part of herself.\n\nAnd in that silent moment, without fear, everything found its place again."
+    },
+    {
+      "id": "1783799066666",
+      "title": "\"el minotauro\"",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783798755/cbdz4axdf1dzt7qbbzky.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783798764/trvxedasyrj10poymlyz.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783798769/qex6ovv8dd9fyk4mco5b.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783798772/e9a6hhvsfah2zqjfpqrk.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783798776/q7nuuhvbu2wzz03vdlzz.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "edicion limitada",
+      "edition_en": "",
+      "size": "90x120cm",
+      "price": "$600 USD",
+      "available": true,
+      "description": "Frente a la sombra del minotauro, la protagonista no huye. Su mirada firme refleja la decisión de seguir adelante, aun cuando el miedo parece imponerse. El libro abierto y el laberinto representan el conocimiento y el recorrido personal: un recordatorio de que toda amenaza puede enfrentarse cuando existe la voluntad de avanzar.",
+      "description_en": "In front of the Minotaur's shadow, the protagonist does not run. Her unwavering gaze reflects the determination to move forward, even when fear seems overwhelming. The open book and the labyrinth symbolize knowledge and the personal journey a reminder that every threat can be faced when there is the courage to keep going."
     }
   ]
 }
