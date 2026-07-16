@@ -1,18 +1,6 @@
 {
   "prensa": [
     {
-      "id": "1783801376892",
-      "title": "Mi visión artística",
-      "imageUrl": "",
-      "gallery": [],
-      "published": true,
-      "publication": "a",
-      "date": "2026",
-      "excerpt": "\n\nMi obra nace de la necesidad de transformar ideas, emociones y experiencias en imágenes que inviten a detenerse, observar y reflexionar. Trabajo desde el realismo como lenguaje principal, combinándolo con elementos simbólicos y fantásticos que amplían la lectura de cada pintura y permiten que cada espectador encuentre su propia interpretación.\n\nMe interesa explorar la complejidad de la naturaleza humana: el miedo, la esperanza, la memoria, el paso del tiempo, la identidad y la capacidad de enfrentar los desafíos que aparecen a lo largo de la vida. Por eso, en mis composiciones conviven figuras humanas, criaturas mitológicas, objetos cargados de significado y escenarios que se mueven entre lo real y lo imaginario.\n\nCada elemento presente en una obra tiene una intención. La luz, la composición, los gestos, los colores y los símbolos forman parte de un relato visual pensado para despertar preguntas más que ofrecer respuestas. Busco crear imágenes que permanezcan en la memoria y que revelen nuevos detalles cada vez que son observadas.\n\nEl dominio técnico del óleo y el estudio constante de la anatomía, la luz y la composición son herramientas fundamentales en mi proceso creativo. Sin embargo, considero que la técnica solo cobra verdadero sentido cuando está al servicio de una idea capaz de generar una conexión emocional con quien contempla la obra.\n\nMi objetivo es crear pinturas que trasciendan lo decorativo y se conviertan en espacios de contemplación, donde la imaginación, la emoción y el simbolismo dialoguen con la experiencia personal de cada espectador. Cada obra representa un nuevo desafío y una nueva oportunidad para contar una historia sin palabras, dejando abierta la posibilidad de múltiples lecturas y significados.",
-      "excerpt_en": "",
-      "link": ""
-    },
-    {
       "id": "2",
       "title": "Artistas emergentes a seguir en 2024",
       "publication": "Art Forum",
@@ -39,6 +27,18 @@
       "excerpt": "En esta entrevista comparto parte de mi recorrido como artista, las ideas que inspiran mi trabajo y el proceso creativo detrás de mis obras. Una conversación sobre el arte como lenguaje, la búsqueda constante de nuevas formas de expresión y el valor de crear imágenes que inviten a la reflexión y al diálogo.",
       "excerpt_en": "In this interview, I share my journey as an artist, the ideas that inspire my work, and the creative process behind my paintings. It is a conversation about art as a universal language, the constant pursuit of new forms of expression, and my desire to create works that invite reflection, evoke emotion, and establish a meaningful connection with the viewer.",
       "link": "https://www.instagram.com/p/DFnvaDKSHiX/"
+    },
+    {
+      "id": "1783801376892",
+      "title": "Mi visión artística",
+      "imageUrl": "",
+      "gallery": [],
+      "published": true,
+      "publication": "a",
+      "date": "2026",
+      "excerpt": "\n\nMi obra nace de la necesidad de transformar ideas, emociones y experiencias en imágenes que inviten a detenerse, observar y reflexionar. Trabajo desde el realismo como lenguaje principal, combinándolo con elementos simbólicos y fantásticos que amplían la lectura de cada pintura y permiten que cada espectador encuentre su propia interpretación.\n\nMe interesa explorar la complejidad de la naturaleza humana: el miedo, la esperanza, la memoria, el paso del tiempo, la identidad y la capacidad de enfrentar los desafíos que aparecen a lo largo de la vida. Por eso, en mis composiciones conviven figuras humanas, criaturas mitológicas, objetos cargados de significado y escenarios que se mueven entre lo real y lo imaginario.\n\nCada elemento presente en una obra tiene una intención. La luz, la composición, los gestos, los colores y los símbolos forman parte de un relato visual pensado para despertar preguntas más que ofrecer respuestas. Busco crear imágenes que permanezcan en la memoria y que revelen nuevos detalles cada vez que son observadas.\n\nEl dominio técnico del óleo y el estudio constante de la anatomía, la luz y la composición son herramientas fundamentales en mi proceso creativo. Sin embargo, considero que la técnica solo cobra verdadero sentido cuando está al servicio de una idea capaz de generar una conexión emocional con quien contempla la obra.\n\nMi objetivo es crear pinturas que trasciendan lo decorativo y se conviertan en espacios de contemplación, donde la imaginación, la emoción y el simbolismo dialoguen con la experiencia personal de cada espectador. Cada obra representa un nuevo desafío y una nueva oportunidad para contar una historia sin palabras, dejando abierta la posibilidad de múltiples lecturas y significados.",
+      "excerpt_en": "",
+      "link": ""
     }
   ]
 }
