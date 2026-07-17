@@ -24,8 +24,9 @@ export async function getFileFromGitHub(
   })
 
   if (!response.ok) {
-    throw new Error(
-      `GitHub API error: ${response.status} ${response.statusText}`
+    throw Object.assign(
+      new Error(`GitHub API error: ${response.status} ${response.statusText}`),
+      { status: response.status }
     )
   }
 
@@ -74,8 +75,9 @@ const encodedContent = btoa(String.fromCharCode(...bytes));
   })
 
   if (!response.ok) {
-    throw new Error(
-      `GitHub API error: ${response.status} ${response.statusText}`
+    throw Object.assign(
+      new Error(`GitHub API error: ${response.status} ${response.statusText}`),
+      { status: response.status }
     )
   }
 }

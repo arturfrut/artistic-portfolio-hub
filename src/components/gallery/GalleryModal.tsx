@@ -226,7 +226,7 @@ export function GalleryModal({ item, onClose }: GalleryModalProps) {
             )}
           </div>
           {/* Item information */}
-          <div className='md:w-72 flex flex-col justify-end pb-4 md:pb-8'>
+          <div className='md:w-72 flex flex-col justify-end pb-4 md:pb-8 px-4 md:px-0'>
             <h2 className='font-display text-3xl mb-4'>{item.title}</h2>
 
             {/* Artwork specific info */}

@@ -42,14 +42,24 @@ export function useAdminContent(token: string, activeTab: ContentType) {
   }, [loadItems]);
 
   const saveItems = async (updatedItems: AnyItem[], commitMsg: string) => {
-    const file = await getFileFromGitHub(FILE_PATHS[activeTab], token);
-    await updateFileOnGitHub(
-      FILE_PATHS[activeTab],
-      JSON.stringify({ [JSON_KEYS[activeTab]]: updatedItems }, null, 2),
-      file.sha,
-      token,
-      commitMsg
-    );
+    const content = JSON.stringify({ [JSON_KEYS[activeTab]]: updatedItems }, null, 2);
+
+    const attempt = async () => {
+      const file = await getFileFromGitHub(FILE_PATHS[activeTab], token);
+      await updateFileOnGitHub(FILE_PATHS[activeTab], content, file.sha, token, commitMsg);
+    };
+
+    try {
+      await attempt();
+    } catch (err) {
+      if ((err as Error & { status?: number }).status === 409) {
+        // El sha quedó desactualizado (guardado concurrente); reintentamos una vez con el sha fresco.
+        await attempt();
+      } else {
+        throw err;
+      }
+    }
+
     setItems(updatedItems);
   };
 
@@ -71,12 +81,12 @@ export function useAdminContent(token: string, activeTab: ContentType) {
     }
   };
 
-  const handleDelete = async (id: string) => {
-    if (!confirm('¿Eliminar este item?')) return;
-    setDeletingId(id);
+  const handleDelete = async (item: AnyItem) => {
+    if (!confirm(`¿Eliminar "${item.title}"?`)) return;
+    setDeletingId(item.id);
     try {
-      const updated = items.filter(i => i.id !== id);
-      await saveItems(updated, `Delete from ${activeTab}`);
+      const updated = items.filter(i => i.id !== item.id);
+      await saveItems(updated, `Delete from ${activeTab}: ${item.title}`);
       showToast('success', 'Eliminado ✓');
     } catch {
       showToast('error', 'Error eliminando');

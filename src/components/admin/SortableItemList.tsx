@@ -57,7 +57,7 @@ interface SortableItemListProps {
   deletingId: string | null;
   onPreview: (url: string) => void;
   onEdit: (item: AnyItem) => void;
-  onDelete: (id: string) => void;
+  onDelete: (item: AnyItem) => void;
   onTogglePublished: (item: AnyItem) => void;
   onDragEnd: (event: DragEndEvent) => void;
 }
@@ -164,7 +164,7 @@ export function SortableItemList({
                         <Tooltip>
                           <TooltipTrigger asChild>
                             <button
-                              onClick={() => onDelete(item.id)}
+                              onClick={() => onDelete(item)}
                               disabled={isDeleting}
                               className="p-2 rounded hover:bg-red-50 transition text-gray-400 hover:text-red-500"
                             >

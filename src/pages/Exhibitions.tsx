@@ -14,7 +14,7 @@ const Exhibitions = () => {
   const { t, i18n } = useTranslation()
   const isEN = i18n.language === 'en'
 
-  const soloExhibitions = exhibitions.filter(e => e.type === 'solo')
+  const soloExhibitions = exhibitions
 
   if (loading)
     return (
