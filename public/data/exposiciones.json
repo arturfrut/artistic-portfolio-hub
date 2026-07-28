@@ -12,7 +12,7 @@
     {
       "id": "1783800802901",
       "title": "SALON XIX FOGOLAR FURLAN",
-      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783800084/lpuldgh3kqwcmupx3aaf.jpg",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267034/rhvndxkhbucp8lpngtla.jpg",
       "gallery": [
         {
           "type": "image",
@@ -33,6 +33,10 @@
         {
           "type": "image",
           "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783800296/kzqrhdbwgqgnlkcdrqh0.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267043/y3pnapvuhoffcishpsi5.jpg"
         }
       ],
       "published": true,
