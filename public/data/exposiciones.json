@@ -45,6 +45,43 @@
       "date": "DICIEMBRE 2025",
       "description": "Primer Premio – XIX Salón de Artes Plásticas Fogolar Furlan\n\nMi obra fue distinguida con el Primer Premio en el XIX Salón de Artes Plásticas Fogolar Furlan, un reconocimiento que representa un importante paso en mi trayectoria artística.\n\nAgradezco profundamente a la organización del salón, al jurado por valorar mi trabajo y a todas las personas que continúan acompañando y confiando en mi obra. Este reconocimiento renueva mi compromiso de seguir explorando nuevas ideas y creando pinturas que inviten a la reflexión y al diálogo.",
       "description_en": ""
+    },
+    {
+      "id": "1785267487837",
+      "title": "muestras y concursos",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267166/xkrjy7hptc2lnjwddk6o.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267173/x3czbg0gdk7gdenywehy.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267183/a9rstzgahkowy2rk3ly0.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267199/kdtf5ugdun5gmunl0sa3.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267208/gzqcau6v2cgsy9pw49dy.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267229/ssfwmyvrf7io5vnjgkq1.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785267247/lddpzf1yl0xyyti5kamt.jpg"
+        }
+      ],
+      "published": true,
+      "venue": "concursosy muestras",
+      "location": "mar del plata Argentina",
+      "date": "últimos años",
+      "description": "Una selección de momentos compartidos con alumnos, colegas y amigos durante exposiciones, concursos y diferentes encuentros vinculados al arte.",
+      "description_en": "Moments shared with students and fellow artists throughout exhibitions, art competitions, and other artistic events."
     }
   ]
 }
