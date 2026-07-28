@@ -1,6 +1,15 @@
 {
   "exposiciones": [
     {
+      "id": "2",
+      "title": "Visiones Latinoamericanas",
+      "venue": "Museo de Arte Moderno",
+      "location": "Ciudad de México, México",
+      "date": "2023",
+      "type": "group",
+      "published": true
+    },
+    {
       "id": "1783800802901",
       "title": "SALON XIX FOGOLAR FURLAN",
       "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1783800084/lpuldgh3kqwcmupx3aaf.jpg",
@@ -32,15 +41,6 @@
       "date": "DICIEMBRE 2025",
       "description": "Primer Premio – XIX Salón de Artes Plásticas Fogolar Furlan\n\nMi obra fue distinguida con el Primer Premio en el XIX Salón de Artes Plásticas Fogolar Furlan, un reconocimiento que representa un importante paso en mi trayectoria artística.\n\nAgradezco profundamente a la organización del salón, al jurado por valorar mi trabajo y a todas las personas que continúan acompañando y confiando en mi obra. Este reconocimiento renueva mi compromiso de seguir explorando nuevas ideas y creando pinturas que inviten a la reflexión y al diálogo.",
       "description_en": ""
-    },
-    {
-      "id": "2",
-      "title": "Visiones Latinoamericanas",
-      "venue": "Museo de Arte Moderno",
-      "location": "Ciudad de México, México",
-      "date": "2023",
-      "type": "group",
-      "published": true
     }
   ]
 }
