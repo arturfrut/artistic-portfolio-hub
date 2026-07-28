@@ -220,6 +220,33 @@
       "available": true,
       "description": "Una figura femenina reposa entre libros, un reloj de bolsillo y una botella vacía, rodeada por una atmósfera de calma e introspección. La escena invita a reflexionar sobre el paso del tiempo, la fragilidad de la belleza y la búsqueda del conocimiento. Cada objeto funciona como un símbolo de las experiencias que nos transforman, mientras la serenidad de la protagonista transmite la aceptación de ese viaje interior.",
       "description_en": "A female figure rests among books, a pocket watch, and an empty bottle, surrounded by an atmosphere of calm and introspection. The scene invites reflection on the passage of time, the fragility of beauty, and the pursuit of knowledge. Each object serves as a symbol of the experiences that shape us, while the serenity of the protagonist conveys an acceptance of the inner journey."
+    },
+    {
+      "id": "1785265806048",
+      "title": "arqueología del presente",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785265161/udlc5yht6tmuixjsollz.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785265309/vgncxeesrinjicgidikx.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785265315/njcem0ae8vx4cokvyzmb.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785265323/vu8p01efzwhuv6ebmudd.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "edición única",
+      "edition_en": "",
+      "size": "90 x100 cm",
+      "price": "$500 USD",
+      "available": true,
+      "description": "Arqueología del Presente\nUna visión simbólica de un mundo posterior al colapso, donde los restos de la vida cotidiana se transforman en vestigios de nuestra época. Entre ruinas, una figura humana y pequeños signos de esperanza recuerdan que, incluso frente a la destrucción, la dignidad y la resiliencia sobreviven. Una reflexión sobre la fragilidad de la civilización y aquello que permanece cuando todo parece perdido.",
+      "description_en": "A symbolic vision of a world after collapse, where the remnants of everyday life become the artifacts of our time. Amid the ruins, a solitary figure and subtle signs of hope remind us that even in the face of destruction, dignity and resilience endure. A reflection on the fragility of civilization and what remains when everything else has vanished."
     }
   ]
 }
