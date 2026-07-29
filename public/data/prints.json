@@ -293,6 +293,25 @@
       "available": true,
       "description": "Una mirada irónica sobre las tensiones y contradicciones de la vida laboral contemporánea. A través de escenas simultáneas cargadas de humor y teatralidad, la obra representa conflictos de poder, competencia, ambición y relaciones humanas que conviven en un mismo espacio. Lo cotidiano se convierte en una metáfora de las dinámicas que atraviesan el ámbito profesional, invitando al espectador a reconocer, cuestionar y reflexionar sobre comportamientos que, aunque exagerados, resultan sorprendentemente familiares.",
       "description_en": "An ironic look at the tensions and contradictions of contemporary working life. Through simultaneous scenes filled with humor and theatricality, the painting portrays power struggles, competition, ambition, and human relationships coexisting within the same space. Everyday situations become a metaphor for the dynamics of the professional world, inviting viewers to recognize, question, and reflect on behaviors that, while exaggerated, feel remarkably familiar."
+    },
+    {
+      "id": "1785290116315",
+      "title": "redencion",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785290057/ma6b0oyrs9bxr4m27tc1.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785290061/jcq06s4x1exuarm4hwxj.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "unica",
+      "edition_en": "",
+      "size": "150x100",
+      "price": "$600 USD",
+      "available": true,
+      "description": "na figura emerge de la oscuridad en un instante de búsqueda y transformación. La luz, inspirada en la tradición del claroscuro, dirige la mirada hacia el gesto ascendente de la mano, símbolo de esperanza, fe y renovación. La obra invita a reflexionar sobre la posibilidad de redimirse incluso en los momentos de mayor vulnerabilidad, donde la fuerza interior prevalece sobre la adversidad.",
+      "description_en": "A solitary figure emerges from the darkness in a moment of searching and transformation. Inspired by the tradition of chiaroscuro, the light draws attention to the upward gesture of the hand, a symbol of hope, faith, and renewal. The painting invites viewers to reflect on the possibility of redemption even in moments of greatest vulnerability, where inner strength prevails over adversity."
     }
   ]
 }
