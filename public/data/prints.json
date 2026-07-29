@@ -266,6 +266,33 @@
       "available": true,
       "description": "Una figura inmersa en el silencio y la contemplación invita al espectador a detenerse frente al mundo interior. La luz modela delicadamente el rostro y las manos, mientras el fondo oscuro elimina toda referencia externa para centrar la atención en la emoción. La obra explora la vulnerabilidad, la calma y la búsqueda de uno mismo, convirtiendo un instante íntimo en una experiencia universal.",
       "description_en": "A figure immersed in silence and contemplation invites the viewer to pause before the inner world. Light delicately shapes the face and hands, while the dark background removes all external references, focusing attention on emotion. The painting explores vulnerability, serenity, and the search for oneself, transforming an intimate moment into a universal experience."
+    },
+    {
+      "id": "1785289820710",
+      "title": "dia de trabajo",
+      "imageUrl": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785289720/pp8di6hdq6bad4q6z5qg.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785289725/x3ci4vanswnnmzimdotw.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785289730/xdextmm6na4s6m3roxsm.jpg"
+        },
+        {
+          "type": "image",
+          "image": "https://res.cloudinary.com/dmyxlpvfd/image/upload/v1785289738/zv6lovpl6bay9qz3kphc.jpg"
+        }
+      ],
+      "published": true,
+      "edition": "unica",
+      "edition_en": "",
+      "size": "150x100cm",
+      "price": "$700 USD",
+      "available": true,
+      "description": "Una mirada irónica sobre las tensiones y contradicciones de la vida laboral contemporánea. A través de escenas simultáneas cargadas de humor y teatralidad, la obra representa conflictos de poder, competencia, ambición y relaciones humanas que conviven en un mismo espacio. Lo cotidiano se convierte en una metáfora de las dinámicas que atraviesan el ámbito profesional, invitando al espectador a reconocer, cuestionar y reflexionar sobre comportamientos que, aunque exagerados, resultan sorprendentemente familiares.",
+      "description_en": "An ironic look at the tensions and contradictions of contemporary working life. Through simultaneous scenes filled with humor and theatricality, the painting portrays power struggles, competition, ambition, and human relationships coexisting within the same space. Everyday situations become a metaphor for the dynamics of the professional world, inviting viewers to recognize, question, and reflect on behaviors that, while exaggerated, feel remarkably familiar."
     }
   ]
 }
